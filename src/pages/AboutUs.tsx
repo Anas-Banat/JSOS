@@ -45,30 +45,8 @@ const AboutUsContent = () => {
                 <img 
                   src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2091&q=80"  
                   alt="About JSOS" 
-                  className="rounded-xl shadow-xl relative z-10 w-full"
+                  className="rounded-xl shadow-xl relative z-10 w-full my-12"
                 />
-              </div>
-              
-              <div className="grid grid-cols-2 gap-4 mt-8">
-                <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                  <div className="text-4xl font-bold text-jsos-green-600 mb-2">15+</div>
-                  <p className="text-gray-600">{t('yearsOfExperience')}</p>
-                </div>
-                
-                <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                  <div className="text-4xl font-bold text-jsos-red-600 mb-2">100+</div>
-                  <p className="text-gray-600">{t('medicalProfessionals')}</p>
-                </div>
-                
-                <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                  <div className="text-4xl font-bold text-jsos-green-600 mb-2">50+</div>
-                  <p className="text-gray-600">{t('publishedResearch')}</p>
-                </div>
-                
-                <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                  <div className="text-4xl font-bold text-jsos-red-600 mb-2">20+</div>
-                  <p className="text-gray-600">{t('annualEvents')}</p>
-                </div>
               </div>
             </div>
           </div>

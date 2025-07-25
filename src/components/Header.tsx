@@ -43,7 +43,7 @@ const Header = () => {
         <div className='flex'>
           <Link to="/" className="text-2xl font-bold text-jsos-green-700 inline-flex items-center">
             <img 
-              src="/lovable-uploads/1a255b67-2187-46dc-a20b-9da450f40a26.png" 
+              src="/public/logo/logo-removebg.png" 
               alt="JSOS Logo" 
               className="h-12"
             />
