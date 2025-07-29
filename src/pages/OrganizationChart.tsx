@@ -28,7 +28,7 @@ const OrganizationChartContent = () => {
             <div className="flex flex-col items-center mb-12">
               <div className="doctor-circle w-40 h-40 mb-4">
                 <img 
-                  src="public\members\Sami_Ahmed.jpg" 
+                  src="/members/Sami_Ahmed.jpg" 
                   alt={t('president')} 
                   className="rounded-full w-full h-full object-cover"
                 />
@@ -41,7 +41,7 @@ const OrganizationChartContent = () => {
               <div className="flex flex-col items-center">
                 <div className="doctor-circle w-32 h-32 mb-3">
                   <img 
-                    src="public\members\mohammad_khres.jpg" 
+                    src="/members/mohammad_khres.jpg" 
                     alt={t('vicePresident')}
                     className="rounded-full w-full h-full object-cover"
                   />
@@ -53,7 +53,7 @@ const OrganizationChartContent = () => {
               <div className="flex flex-col items-center">
                 <div className="doctor-circle w-32 h-32 mb-3">
                   <img 
-                    src="public\members\mohammad_zetawi.jpg" 
+                    src="/members/mohammad_zetawi.jpg" 
                     alt={t('treasurer')}
                     className="rounded-full w-full h-full object-cover"
                   />
@@ -65,7 +65,7 @@ const OrganizationChartContent = () => {
               <div className="flex flex-col items-center">
                 <div className="doctor-circle w-32 h-32 mb-3">
                   <img 
-                    src="public\members\mohammad_rashdan.jpg" 
+                    src="/members/mohammad_rashdan.jpg" 
                     alt={t('secretary')}
                     className="rounded-full w-full h-full object-cover"
                   />
@@ -78,7 +78,7 @@ const OrganizationChartContent = () => {
               <div className="flex flex-col items-center">
                 <div className="doctor-circle w-32 h-32 mb-3">
                   <img 
-                    src="public\members\taglab.jpg" 
+                    src="/members/taglab.jpg" 
                     alt={t('scientificCommittee')} 
                     className="rounded-full w-full h-full object-cover"
                   />
@@ -90,7 +90,7 @@ const OrganizationChartContent = () => {
               <div className="flex flex-col items-center">
                 <div className="doctor-circle w-32 h-32 mb-3">
                   <img 
-                    src="public\members\damrah.jpg" 
+                    src="/members/damrah.jpg" 
                     alt={t('boardMember')} 
                     className="rounded-full w-full h-full object-cover"
                   />
@@ -102,7 +102,7 @@ const OrganizationChartContent = () => {
               <div className="flex flex-col items-center">
                 <div className="doctor-circle w-32 h-32 mb-3">
                   <img 
-                    src="public\members\Omar.jpg" 
+                    src="/members/Omar.jpg" 
                     alt={t('boardMember')}
                     className="rounded-full w-full h-full object-cover"
                   />
