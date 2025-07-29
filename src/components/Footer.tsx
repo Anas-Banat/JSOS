@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center mb-4">
               <img 
-                src="/public/logo/logo-removebg.png" 
+                src="/logo/logo-removebg.png" 
                 alt="JSOS Logo" 
                 className="h-12 me-2 bg-white/90 rounded-xl p-1" 
               />
