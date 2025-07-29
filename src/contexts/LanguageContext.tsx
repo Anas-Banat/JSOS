@@ -238,6 +238,59 @@ const translations = {
     ar: 'التفاصيل',
     en: 'Details'
   },
+  // Organization Chart
+  samiAhmed: {
+    ar: 'د. سامي أحمد',
+    en: 'Dr. Sami Ahmad'
+  },
+  president: {
+    ar: 'رئيس الجمعية',
+    en: 'President'
+  },
+  mohammaKdhres: {
+    ar: 'د. محمد خريس',
+    en: 'Dr. Mohammad Khrais'
+  },
+  vicePresident: {
+    ar: 'نائب الرئيس',
+    en: 'Vice President'
+  },
+  mohammadZetawi: {
+    ar: 'د. محمد زيتوي',
+    en: 'Dr. Mohammad Zetawi'
+  },
+  treasurer: {
+    ar: 'أمين الصندوق',
+    en: 'Treasurer'
+  },
+  mohammadRashdan: {
+    ar: 'د. محمد الرشدان',
+    en: 'Dr. Mohammad Al-Rashdan'
+  },
+  secretary: {
+    ar: 'أمين السر',
+    en: 'Secretary'
+  },
+  taglebMazahreh: {
+    ar: 'د. تغلب مزاهرة',
+    en: 'Dr. Tagleb Mazahreh'
+  },
+  scientificCommittee: {
+    ar: 'اللجنة العلمية ',
+    en: 'Scientific Committee Chair'
+  },
+  osamaDamrah: {
+    ar: 'د. أسامة ضمرة',
+    en: 'Dr. Osama Damra'
+  },
+  boardMember: {
+    ar: 'عضو لجنة الإدارة',
+    en: 'Board Member'
+  },
+  omar: {
+    ar: 'د. عمر شوابكة',
+    en: 'Dr. Omar Shawabkeh'
+  },
   // Members
   membersTitle: {
     ar: 'أعضاء الجمعية',
