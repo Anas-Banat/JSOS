@@ -25,7 +25,7 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground animate-on-scroll">
+            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-foreground animate-on-scroll">
               {t('heroTitle')}
             </h1>
             <p className="text-xl md:text-2xl mt-4 text-muted-foreground animate-on-scroll">

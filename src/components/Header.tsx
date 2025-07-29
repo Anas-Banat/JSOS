@@ -38,16 +38,20 @@ const Header = () => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md backdrop-blur-sm' : 'bg-transparent'}`}
       dir={isRTL ? 'rtl' : 'ltr'}
     >
-      <div className="container-custom mx-auto flex items-center py-4">
+      <div className="container-custom mx-auto flex items-center py-4 justify-between">
         {/* Logo */}
         <div className='flex'>
           <Link to="/" className="text-2xl font-bold text-jsos-green-700 inline-flex items-center">
             <img 
-              src="/public/logo/logo-removebg.png" 
+              src={language === 'ar' ? '/logo/Ar-logo.png' : '/logo/En-logo.png'}
               alt="JSOS Logo" 
-              className="h-12"
+              className="w-32 h-32"
             />
           </Link>
+          <div className={`flex-nowrap flex-col mt-11`}>
+            <p className='flex flex-none items-center gap-2 font-bold text-[12px]'>Jordanian Society For Obesity Surgery </p>
+            <p className='flex flex-none items-center gap-2 font-bold text-[15px]'>جمعية جراحة السمنة الاردنية</p>
+          </div>
         </div>
 
         {/* Desktop Navigation */}
@@ -60,21 +64,13 @@ const Header = () => {
             >
               {t('navHome')}
             </Link>
-            
-            <Link 
-              to="/about-us" 
-              className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 ${isRTL ? 'text-right' : 'text-left'}`}
-              style={{ textAlign: isRTL ? 'right' : 'left' }}
-            >
-              {t('navAbout')}
-            </Link>
-            
+
             <HoverCard openDelay={0} closeDelay={0}>
               <HoverCardTrigger 
                 className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 bg-transparent hover:bg-transparent ${isRTL ? 'text-right' : 'text-left'} inline-flex items-center gap-1`}
                 style={{ textAlign: isRTL ? 'right' : 'left' }}
               >
-                {t('navMembers')}
+                {t('navAbout')}
                 <ChevronDown className="h-4 w-4" />
               </HoverCardTrigger>
               <HoverCardContent 
@@ -86,24 +82,23 @@ const Header = () => {
                 sideOffset={5}
               >
                 <div className="flex flex-col">
-                  <Link to="/members" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
-                    {t('navMembersPage')}
+                  <Link to="/about-us" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                  {t('navWelcome')}
                   </Link>
                   <Link to="/organization-chart" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
                     {t('navOrgChart')}
                   </Link>
+                  <Link to="/jsos-bylaw" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                    {t('navJsosBylaw')}
+                  </Link>
+                  <Link to="/contact" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                    {t('navContact')}
+                  </Link>
+
                 </div>
               </HoverCardContent>
-            </HoverCard>
-            
+            </HoverCard>            
 
-            <Link 
-              to="/jsos-media" 
-              className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 ${isRTL ? 'text-right' : 'text-left'}`}
-              style={{ textAlign: isRTL ? 'right' : 'left' }}
-            >
-              {t('navJsosMedia')}
-            </Link>
             
             <HoverCard openDelay={0} closeDelay={0}>
               <HoverCardTrigger 
@@ -161,9 +156,6 @@ const Header = () => {
                 sideOffset={5}
               >
                 <div className="flex flex-col">
-                  <Link to="/jsos-bylaw" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
-                    {t('navJsosBylaw')}
-                  </Link>
                   <Link to="/doctor-guidelines" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
                     {t('navDoctorGuidelines')}
                   </Link>
@@ -252,29 +244,35 @@ const Header = () => {
               </HoverCardContent>
             </HoverCard>
 
-            <Link 
-              to="/events" 
-              className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 ${isRTL ? 'text-right' : 'text-left'}`}
-              style={{ textAlign: isRTL ? 'right' : 'left' }}
-            >
-              {t('navEvents')}
-            </Link>
-
-            <Link 
-              to="/news" 
-              className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 ${isRTL ? 'text-right' : 'text-left'}`}
-              style={{ textAlign: isRTL ? 'right' : 'left' }}
-            >
-              {t('navNews')}
-            </Link>
-
-            <Link 
-              to="/contact" 
-              className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 ${isRTL ? 'text-right' : 'text-left'}`}
-              style={{ textAlign: isRTL ? 'right' : 'left' }}
-            >
-              {t('navContact')}
-            </Link>
+            <HoverCard openDelay={0} closeDelay={0}>
+              <HoverCardTrigger 
+                className={`text-foreground hover:text-jsos-green-600 transition-colors px-3 py-2 bg-transparent hover:bg-transparent ${isRTL ? 'text-right' : 'text-left'} inline-flex items-center gap-1`}
+                style={{ textAlign: isRTL ? 'right' : 'left' }}
+              >
+                {t('navMedia')}
+                <ChevronDown className="h-4 w-4" />
+              </HoverCardTrigger>
+              <HoverCardContent 
+                className={cn(
+                  "w-[250px] p-0",
+                  isRTL ? "text-right" : "text-left"
+                )}
+                align={isRTL ? "end" : "start"}
+                sideOffset={5}
+              >
+                <div className="flex flex-col">
+                  <Link to="/news" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                  {t('navNews')}
+                  </Link>
+                  <Link to="/events" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                  {t('navEvents')}
+                  </Link>
+                  <Link to="/gallery" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                    {t('navGallery')}
+                  </Link>
+                </div>
+              </HoverCardContent>
+            </HoverCard>
           </nav>
         </div>
 

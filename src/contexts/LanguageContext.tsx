@@ -17,8 +17,12 @@ const translations = {
     en: 'Home'
   },
   navAbout: {
-    ar: 'من نحن',
+    ar: 'عن الجمعية',
     en: 'About Us'
+  },
+  navWelcome: {
+    ar: 'اهلا بكم في جمعية السمنة',
+    en: 'Welcome To JSOS'
   },
   navMembers: {
     ar: 'أعضاء الجمعية',
@@ -73,7 +77,7 @@ const translations = {
     en: 'Guides'
   },
   navJsosBylaw: {
-    ar: 'النظام الداخلي للجمعية',
+    ar: 'النظام الداخلي',
     en: 'JSOS Bylaw'
   },
   navDoctorGuidelines: {
@@ -144,9 +148,17 @@ const translations = {
     ar: 'الفعاليات',
     en: 'Events'
   },
+  navMedia: {
+    ar: 'وسائل الاعلام',
+    en: 'Media'
+  },
   navNews: {
     ar: 'الأخبار',
     en: 'News'
+  },
+  navGallery: {
+    ar: 'معرض الصور',
+    en: 'Gallery'
   },
   // Website title and basics
   websiteTitle: {
@@ -200,22 +212,6 @@ const translations = {
   aboutContent: {
     ar: 'جمعية جراحة السمنة الأردنية هي منظمة مهنية تهدف إلى تحسين مستوى الرعاية الصحية للمرضى الذين يعانون من السمنة في الأردن. تم تأسيسها من قبل مجموعة من الجراحين المتخصصين في مجال جراحة السمنة والأيض.',
     en: 'The Jordanian Society for Obesity Surgery is a professional organization that aims to improve the level of healthcare for patients suffering from obesity in Jordan. It was established by a group of surgeons specialized in the field of obesity and metabolic surgery.'
-  },
-  yearsOfExperience: {
-    ar: 'سنوات الخبرة',
-    en: 'Years of Experience'
-  },
-  medicalProfessionals: {
-    ar: 'أعضاء الجمعية الطبية',
-    en: 'Medical Professionals'
-  },
-  publishedResearch: {
-    ar: 'البحوث المنشورة',
-    en: 'Published Research'
-  },
-  annualEvents: {
-    ar: 'الفعاليات السنوية',
-    en: 'Annual Events'
   },
   // Events
   eventsTitle: {
@@ -291,15 +287,6 @@ const translations = {
     ar: 'د. عمر شوابكة',
     en: 'Dr. Omar Shawabkeh'
   },
-  // Members
-  membersTitle: {
-    ar: 'أعضاء الجمعية',
-    en: 'Association Members'
-  },
-  membersSubtitle: {
-    ar: 'تعرف على فريقنا من الخبراء',
-    en: 'Meet Our Team of Experts'
-  },
   // Contact form
   contactTitle: {
     ar: 'تواصل معنا',
@@ -328,6 +315,23 @@ const translations = {
   formSubmit: {
     ar: 'إرسال',
     en: 'Send'
+  },
+  //Official Bylaws
+  jsosBylawTitle: {
+    ar: 'النظام الداخلي للجمعية',
+    en: 'Official Bylaws Of The JSOS'
+  },
+  jsosBylawContent1: {
+    ar: 'يسعدنا أن نضع بين أيديكم النظام الأساسي لجمعية جراحة السمنة الأردنية، والذي يوضّح أهداف الجمعية، شروط العضوية، صلاحيات الهيئة الإدارية، والإطار القانوني الناظم لجميع أنشطة الجمعية. ',
+    en: 'We are pleased to share with you the official bylaws of the Jordanian Society for Obesity Surgery (JSOS), which outline the Society’s objectives, membership criteria, administrative authorities, and the legal framework governing all its activities.'
+  },
+  jsosBylawContent2: {
+    ar: 'تم إعداد هذا النظام لضمان الحوكمة الرشيدة وتعزيز الشفافية والمهنية في عمل الجمعية، بما يخدم مصلحة أعضائها ويساهم في تطوير مجال جراحة السمنة في الأردن.',
+    en: 'This document was developed to ensure good governance, transparency, and professionalism in the Society’s operations, aiming to serve its members and advance the field of obesity surgery in Jordan.'
+  },
+  jsosBylawContent3: {
+    ar: 'يمكنكم تحميل نسخة كاملة من النظام عبر الزر أدناه.',
+    en: 'You can download the full version of the bylaws using the button below.'
   },
   // Footer
   footerText: {

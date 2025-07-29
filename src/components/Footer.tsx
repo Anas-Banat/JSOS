@@ -97,20 +97,20 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 text-jsos-red-400 flex-shrink-0 mt-1" />
-                <span className="text-white/80 text-sm">
+                <span className="text-white/80 mx-2 text-sm">
                   {t('footerAddress')}
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 text-jsos-red-400" />
-                <span className="text-white/80 text-sm">
-                  +962 6 1234567
+                <span className="text-white/80 mx-2 text-sm">
+                  065665620
                 </span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 text-jsos-red-400" />
-                <span className="text-white/80 text-sm">
-                  info@jsos.org
+                <span className="text-white/80 mx-2 text-sm">
+                  info@obesity-jo.com
                 </span>
               </li>
             </ul>

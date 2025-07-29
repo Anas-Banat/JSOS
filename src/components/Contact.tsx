@@ -93,9 +93,8 @@ const Contact = () => {
                 <div className="bg-jsos-green-100 p-3 rounded-full flex-shrink-0">
                   <MapPin className="text-jsos-green-600" size={24} />
                 </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-semibold">Amman, Jordan</h3>
-                  <p className="text-muted-foreground">King Abdullah II St, Amman</p>
+                <div className="mx-4">
+                  <h3 className="text-lg mt-2 font-semibold">Amman, Jordan</h3>
                 </div>
               </div>
               
@@ -103,9 +102,8 @@ const Contact = () => {
                 <div className="bg-jsos-green-100 p-3 rounded-full flex-shrink-0">
                   <Phone className="text-jsos-green-600" size={24} />
                 </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-semibold">+962 6 1234567</h3>
-                  <p className="text-muted-foreground">Mon-Fri from 9am to 5pm</p>
+                <div className="mx-4">
+                  <h3 className="text-lg mt-2 font-semibold"> 065665620</h3>
                 </div>
               </div>
               
@@ -113,9 +111,8 @@ const Contact = () => {
                 <div className="bg-jsos-green-100 p-3 rounded-full flex-shrink-0">
                   <Mail className="text-jsos-green-600" size={24} />
                 </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-semibold">info@jsos.org</h3>
-                  <p className="text-muted-foreground">We reply within 24 hours</p>
+                <div className="mx-4">
+                  <h3 className="text-lg mt-2 font-semibold"> info@obesity-jo.com </h3>
                 </div>
               </div>
             </div>
