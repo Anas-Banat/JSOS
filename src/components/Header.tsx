@@ -38,19 +38,19 @@ const Header = () => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md backdrop-blur-sm' : 'bg-transparent'}`}
       dir={isRTL ? 'rtl' : 'ltr'}
     >
-      <div className="container-custom mx-auto flex items-center py-4 justify-between">
+      <div className="container-custom mx-auto flex items-center py-4 justify-between lg:mt30">
         {/* Logo */}
         <div className='flex'>
           <Link to="/" className="text-2xl font-bold text-jsos-green-700 inline-flex items-center">
             <img 
               src={language === 'ar' ? '/logo/Ar-logo.png' : '/logo/En-logo.png'}
               alt="JSOS Logo" 
-              className="w-32 h-32"
+              className="flex item-end w-16 h-16 lg:w-[70px] lg:h-[70px]"
             />
           </Link>
-          <div className={`flex-nowrap flex-col mt-11`}>
-            <p className='flex flex-none items-center gap-2 font-bold text-[12px]'>Jordanian Society For Obesity Surgery </p>
-            <p className='flex flex-none items-center gap-2 font-bold text-[15px]'>جمعية جراحة السمنة الاردنية</p>
+          <div className={`flex-nowrap flex-col mt-5`}>
+            <p className='flex flex-none items-center gap-2 font-bold text-[8px] lg:text-[12px]'>Jordanian Society For Obesity Surgery </p>
+            <p className='flex flex-none items-center gap-2 font-bold text-[12px] lg:text-[15px]'>جمعية جراحة السمنة الاردنية</p>
           </div>
         </div>
 
@@ -281,17 +281,17 @@ const Header = () => {
           <Button 
             onClick={toggleLanguage} 
             variant="outline" 
-            className="bg-white/20 backdrop-blur-sm"
+            className="bg-white/20 backdrop-blur-sm p-2 text-[12px]"
           >
             {language === 'ar' ? 'English' : 'العربية'}
           </Button>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden ml-2">
+          <div className="lg:hidden ml-2 p-1">
             <Button 
               variant="ghost" 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-1"
+              className="p-0"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </Button>
@@ -310,21 +310,20 @@ const Header = () => {
             <Link to="/" className="text-foreground py-2 px-4 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navHome')}
             </Link>
-            <Link to="/about-us" className="text-foreground py-2 px-4 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navAbout')}
-            </Link>
             
             <div className="border-t border-gray-200 my-1"></div>
-            <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navMembers')}</div>
-            <Link to="/members" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navMembersPage')}
+            <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navAbout')}</div>
+            <Link to="/about-us" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+            {t('navWelcome')}
             </Link>
             <Link to="/organization-chart" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navOrgChart')}
             </Link>
-            
-            <Link to="/jsos-media" className="text-foreground py-2 px-4 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navJsosMedia')}
+            <Link to="/jsos-bylaw" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+              {t('navJsosBylaw')}
+            </Link>
+            <Link to="/contact" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+            {t('navContact')}
             </Link>
             
             <div className="border-t border-gray-200 my-1"></div>
@@ -350,9 +349,6 @@ const Header = () => {
             
             <div className="border-t border-gray-200 my-1"></div>
             <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navGuides')}</div>
-            <Link to="/jsos-bylaw" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navJsosBylaw')}
-            </Link>
             <Link to="/doctor-guidelines" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navDoctorGuidelines')}
             </Link>
@@ -403,14 +399,15 @@ const Header = () => {
             </Link>
             
             <div className="border-t border-gray-200 my-1"></div>
-            <Link to="/events" className="text-foreground py-2 px-4 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navEvents')}
-            </Link>
-            <Link to="/news" className="text-foreground py-2 px-4 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+            <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navGuides')}</div>
+            <Link to="/news" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navNews')}
             </Link>
-            <Link to="/contact" className="text-foreground py-2 px-4 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navContact')}
+            <Link to="/events" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+              {t('navEvents')}
+            </Link>
+            <Link to="/gallery" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+              {t('navGallery')}
             </Link>
           </nav>
         </div>
