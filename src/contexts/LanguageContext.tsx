@@ -212,6 +212,310 @@ const translations = {
     ar: 'جمعية جراحة السمنة الأردنية هي منظمة مهنية تهدف إلى تحسين مستوى الرعاية الصحية للمرضى الذين يعانون من السمنة في الأردن. تم تأسيسها من قبل مجموعة من الجراحين المتخصصين في مجال جراحة السمنة والأيض.',
     en: 'The Jordanian Society for Obesity Surgery is a professional organization that aims to improve the level of healthcare for patients suffering from obesity in Jordan. It was established by a group of surgeons specialized in the field of obesity and metabolic surgery.'
   },
+  aboutExtendedContent: {
+    ar: 'قطع الأردن أشواطاً كبيرة وحقق إنجازات متقدمة في جراحات السمنة من خلال أسماء لامعة لعمالقة الطب في هذا المجال مما جعله مقصداً لعديد من المرضى العرب والأجانب الذين يتهافتون لإجراء العمليات على أيدي أمهر الأطباء الأردنيين وبات يحتل المراكز الأولى في الشرق الأوسط من حيث التقنية العالية والكفاءات المشهود لها ونسب النجاح المرتفعة والتكلفة المعتدلة حيث أصبحت جراحة السمنة بالأردن تشكل العلامة الفارقة والداعم الأكبر للسياحة العلاجية ورفد خزينة الدولة وتحرك القطاعات المختلفة الأخرى إلى جانب دورها في رفع اسم الأردن عالياً في المؤتمرات العالمية.',
+    en: 'Jordan has made great strides and achieved advanced achievements in obesity surgeries through illustrious names of medical giants in this field, making it a destination for many Arab and foreign patients who flock to perform operations at the hands of the most skilled Jordanian doctors, and it has occupied the first positions in the Middle East in terms of high technology, proven competencies, high success rates and moderate cost, where obesity surgery in Jordan has become the distinctive mark and the biggest supporter of medical tourism, feeding the state treasury and moving various other sectors alongside its role in raising Jordan\'s name high in global conferences.'
+  },
+  aboutFoundation: {
+    ar: 'ومن هنا جاءت فكرة تأسيس جمعية مكافحة السمنة المفرطة الأردنية في العام 2015 وتم تسجيلها رسمياً بشهر 11 لعام 2017 بمسمى جمعية جراحة السمنة الأردنية وتضع الجمعية نصب عينها مجموعة من الأهداف التي من شأنها تطوير وتعزيز علاج وجراحة السمنة بالأردن ومنها التوعية الصحية لمشكلة السمنة وخطرها على صحة الإنسان والمضاعفات التي قد تنتج عنها.',
+    en: 'From here came the idea of establishing the Jordanian Anti-Morbid Obesity Society in 2015 and it was officially registered in November 2017 under the name Jordanian Society for Obesity Surgery, and the Society sets before its eyes a set of goals that would develop and enhance obesity treatment and surgery in Jordan, including health awareness of the obesity problem and its danger to human health and the complications that may result from it.'
+  },
+  aboutRole: {
+    ar: 'إلى جانب ذلك تلعب الجمعية دوراً فعالاً بتقوية الروابط الاجتماعية والروابط العلمية بين الأعضاء المسجلين وإقامة المؤتمرات واللقاءات العلمية داخل الأردن كذلك إجراء البحوث والدراسات العلمية في مجال الوقاية ومجال علاج السمنة المفرطة والمشاركة بالمؤتمرات واللقاءات على المستوى العالمي.',
+    en: 'In addition, the Society plays an active role in strengthening social and scientific ties between registered members and holding conferences and scientific meetings within Jordan, as well as conducting research and scientific studies in the field of prevention and treatment of morbid obesity and participating in conferences and meetings at the global level.'
+  },
+  aboutMeetings: {
+    ar: 'كما يتم إجراء لقاءات منتظمة شهرياً لأعضاء الجمعية يقوم الأطباء من خلالها بتقديم الحالات الصعبة والنقاش عليها وإيجاد حلول مناسبة لها، بطريقة مشتركة بين الأطباء.',
+    en: 'Regular monthly meetings are also held for Society members where doctors present difficult cases, discuss them, and find appropriate solutions for them, in a collaborative manner between doctors.'
+  },
+  aboutNecessity: {
+    ar: 'إن إنشاء جمعية مكافحة السمنة المفرطة الأردنية كان ضرورة وخطوة نحو الأمام لا سيما أن السمنة والبدانة أصبحت داء العصر ولها مخاطر صحية خطيرة وقد تنشأ عنها أمراض عديدة منها ارتفاع احتمالية الإصابة بالسكري وارتفاع ضغط الدم وارتفاع الدهنيات في الدم وكذلك زيادة احتمالية ظهور الأمراض السرطانية.. الخ وبالتالي فإن جراحة السمنة لم تعد مجرد تجميل وتنسيق لجسم الإنسان بل تعدت ذلك إلى هدف أكبر وهو العلاج من الأمراض العديدة والخطيرة.',
+    en: 'The establishment of the Jordanian Anti-Morbid Obesity Society was a necessity and a step forward, especially since obesity and overweight have become the disease of the era and have serious health risks that may lead to many diseases including increased probability of diabetes, high blood pressure, high blood lipids, as well as increased probability of cancer diseases... etc. Therefore, obesity surgery is no longer just cosmetic and body contouring for humans, but has gone beyond that to a greater goal, which is treatment from many serious diseases.'
+  },
+  // About Us Section Titles
+  aboutJordanAchievementsTitle: {
+    ar: 'إنجازات الأردن في جراحة السمنة',
+    en: 'Jordan\'s Achievements in Obesity Surgery'
+  },
+  aboutFoundationTitle: {
+    ar: 'تأسيس الجمعية',
+    en: 'Society Foundation'
+  },
+  aboutScientificMeetingsTitle: {
+    ar: 'اللقاءات العلمية',
+    en: 'Scientific Meetings'
+  },
+  aboutNecessityTitle: {
+    ar: 'ضرورة إنشاء الجمعية',
+    en: 'Necessity of Society Establishment'
+  },
+  // Disease Page
+  diseaseTitle: {
+    ar: 'المرض',
+    en: 'Disease'
+  },
+  diseaseEpidemicTitle: {
+    ar: 'السمنة كوباء صحي عالمي',
+    en: 'Obesity as a Global Health Epidemic'
+  },
+  diseaseEpidemicContent: {
+    ar: 'تظهر السمنة كوباء صحي حول العالم. وفقاً لمراكز مكافحة الأمراض والوقاية منها، تنتشر السمنة بسرعة عبر جميع المناطق والفئات الديموغرافية. يقدر أن 97 مليون بالغ في الولايات المتحدة يعانون من زيادة الوزن أو السمنة. هذا الرقم يمثل أكثر من 50% من السكان البالغين الأمريكيين. من هذه المجموعة، يعاني 11 مليون بالغ من السمنة المفرطة.',
+    en: 'Obesity is emerging as a health epidemic around the world. According to the Centres for Disease Control and Prevention, obesity is rapidly spreading across all regions and demographic groups. An estimated 97 million adults in the United States are overweight or obese. That figure represents more than 50% of the American adult population. Of this group, 11 million adults suffer from severe obesity.'
+  },
+  diseaseDefinitionTitle: {
+    ar: 'تعريف السمنة',
+    en: 'Definition of Obesity'
+  },
+  diseaseDefinitionContent: {
+    ar: 'السمنة هي زيادة في إجمالي دهون الجسم، والتي تنتج من تناول السعرات الحرارية التي تتجاوز استخدام الطاقة. القياس المستخدم لتقييم المخاطر الصحية للسمنة هو مؤشر كتلة الجسم (BMI).',
+    en: 'Obesity is an excess of total body fat, which results from caloric intake that exceeds energy usage. A measurement used to assess health risks of obesity is Body Mass Index (BMI).'
+  },
+  diseaseBMILink: {
+    ar: 'انقر هنا لمعرفة المزيد عن مؤشر كتلة الجسم BMI',
+    en: 'Click here to find out more about Body Mass Index BMI'
+  },
+  diseaseHealthRisksTitle: {
+    ar: 'المخاطر الصحية',
+    en: 'Health Risks'
+  },
+  diseaseHealthRisksContent: {
+    ar: 'تقرر جمعية السمنة الأمريكية أن الأفراد المصابين بالسمنة لديهم خطر متزايد بنسبة 50-100% في الوفاة مقارنة بالأفراد ذوي الوزن الطبيعي، مع 300,000 إلى 587,000 حالة وفاة سنوياً. هذه الزيادة الكبيرة في المخاطر الصحية جعلت السمنة السبب الثاني للوفاة القابلة للوقاية في الولايات المتحدة.',
+    en: 'The American Obesity Association reports that obese individuals have a 50-100% increased risk of death as compared to normal weight individuals, with 300,000 to 587,000 deaths each year. This substantial increase in health risks has made obesity the second leading cause of preventable death in the United States.'
+  },
+  diseaseCausesTitle: {
+    ar: 'أسباب السمنة',
+    en: 'Causes of Obesity'
+  },
+  diseaseCausesIntro: {
+    ar: 'يمكن أن تكون السمنة مزيجاً من العوامل التالية:',
+    en: 'Obesity could be a combination of the following:'
+  },
+  diseaseCauseGenes: {
+    ar: 'الجينات التي ورثتها من والديك',
+    en: 'The genes you inherited from your parents'
+  },
+  diseaseCauseMetabolism: {
+    ar: 'مدى كفاءة جسمك في تحويل الطعام إلى طاقة',
+    en: 'How well your body turns food into energy'
+  },
+  diseaseCauseHabits: {
+    ar: 'عاداتك في الأكل والتمارين',
+    en: 'Your eating and exercising habits'
+  },
+  diseaseCauseEnvironment: {
+    ar: 'بيئتك المحيطة',
+    en: 'Your surroundings'
+  },
+  diseaseCausePsychological: {
+    ar: 'العوامل النفسية',
+    en: 'Psychological factors'
+  },
+  // Disease Causes Detailed Descriptions
+  diseaseCauseGenesDesc: {
+    ar: 'العوامل الوراثية تلعب دوراً مهماً في تحديد استعداد الشخص للسمنة. الجينات التي ورثتها من والديك يمكن أن تؤثر على معدل التمثيل الغذائي وتخزين الدهون في الجسم.',
+    en: 'Genetic factors play an important role in determining a person\'s predisposition to obesity. The genes you inherited from your parents can affect your metabolic rate and fat storage in the body.'
+  },
+  diseaseCauseMetabolismDesc: {
+    ar: 'يختلف معدل التمثيل الغذائي من شخص لآخر. بعض الأشخاص لديهم معدل تمثيل غذائي أبطأ، مما يعني أنهم يحرقون السعرات الحرارية بشكل أبطأ.',
+    en: 'Metabolic rate varies from person to person. Some people have a slower metabolism, meaning they burn calories more slowly.'
+  },
+  diseaseCauseHabitsDesc: {
+    ar: 'نمط الحياة اليومي بما في ذلك عادات الأكل والتمارين الرياضية له تأثير كبير على الوزن. تناول الأطعمة عالية السعرات مع قلة النشاط البدني يؤدي إلى زيادة الوزن.',
+    en: 'Daily lifestyle including eating habits and exercise has a significant impact on weight. Consuming high-calorie foods with low physical activity leads to weight gain.'
+  },
+  diseaseCauseEnvironmentDesc: {
+    ar: 'البيئة المحيطة تشمل توفر الأطعمة الصحية، إمكانية الوصول للتمارين الرياضية، والضغوط الاجتماعية والاقتصادية التي تؤثر على خيارات نمط الحياة.',
+    en: 'The surrounding environment includes the availability of healthy foods, access to exercise, and social and economic pressures that affect lifestyle choices.'
+  },
+  diseaseCausePsychologicalDesc: {
+    ar: 'العوامل النفسية مثل التوتر، الاكتئاب، والقلق يمكن أن تؤدي إلى الإفراط في الأكل أو اختيار الأطعمة غير الصحية. بعض الأشخاص يستخدمون الطعام كوسيلة للتعامل مع المشاعر.',
+    en: 'Psychological factors such as stress, depression, and anxiety can lead to overeating or choosing unhealthy foods. Some people use food as a way to cope with emotions.'
+  },
+  // Candidate Page
+  candidateTitle: {
+    ar: 'هل أنت مرشح؟',
+    en: 'Are You a Candidate?'
+  },
+  candidateIntro: {
+    ar: 'هناك عدد من المعايير المقبولة على نطاق واسع والتي تجعل المريض مناسباً لجراحة السمنة أو إنقاص الوزن:',
+    en: 'There are a number of widely accepted criteria which make a patient suitable for Bariatric or weight loss surgery:'
+  },
+  candidateCriteria: {
+    ar: 'معايير المرشحين',
+    en: 'Candidate Criteria'
+  },
+  candidateWeight: {
+    ar: 'الوزن أكبر من 45 كجم فوق الوزن المثالي للجنس والطول',
+    en: 'Weight greater than 45kg above the ideal body weight for sex, and height'
+  },
+  candidateBMI: {
+    ar: 'مؤشر كتلة الجسم > 40 لوحده أو > 35 إذا كان هناك مرض سمنة مرتبط، مثل السكري أو انقطاع التنفس أثناء النوم',
+    en: 'BMI > 40 by itself or >35 if there is an associated obesity illness, such as diabetes or sleep apnoea'
+  },
+  candidateAttempts: {
+    ar: 'محاولات معقولة لتقنيات إنقاص الوزن الأخرى',
+    en: 'Reasonable attempts at other weight loss techniques'
+  },
+  candidateAge: {
+    ar: 'العمر 18-65',
+    en: 'Age 18-65'
+  },
+  candidateHealthProblems: {
+    ar: 'مشاكل صحية متعلقة بالسمنة',
+    en: 'Obesity related health problems'
+  },
+  candidateNoPsychiatric: {
+    ar: 'لا توجد مشاكل نفسية أو إدمان على المخدرات',
+    en: 'No psychiatric or drug dependency problems'
+  },
+  candidateUnderstanding: {
+    ar: 'القدرة على فهم المخاطر والالتزام المرتبط بالجراحة',
+    en: 'A capacity to understand the risks and commitment associated with the surgery'
+  },
+  candidatePregnancy: {
+    ar: 'عدم توقع الحمل في أول سنتين بعد الجراحة',
+    en: 'Pregnancy not anticipated in the first two years following surgery'
+  },
+  candidateFlexibility: {
+    ar: 'هناك مرونة كبيرة في هذه الإرشادات. تم تقديم الجراحة لمرضى صغار في السن يبلغون 12 عاماً. أحياناً يتم قبول مؤشر كتلة جسم أقل بين 30-35 إذا كانت هناك أمراض مصاحبة.',
+    en: 'There is considerable flexibility in these guidelines. Patients as young as 12 have been offered surgery. Sometimes a lower BMI between 30-35 is accepted if comorbidities exist.'
+  },
+  // Candidate Criteria Detailed Descriptions
+  candidateWeightDesc: {
+    ar: 'يجب أن يكون وزن المريض أكبر من 45 كجم فوق الوزن المثالي المحدد حسب الجنس والطول.',
+    en: 'The patient\'s weight should be greater than 45kg above the ideal body weight determined by sex and height.'
+  },
+  candidateBMIDesc: {
+    ar: 'مؤشر كتلة الجسم يجب أن يكون أكبر من 40، أو أكبر من 35 إذا كان هناك أمراض مرتبطة بالسمنة.',
+    en: 'Body mass index should be greater than 40, or greater than 35 if there are obesity-related diseases.'
+  },
+  candidateAttemptsDesc: {
+    ar: 'يجب أن يكون المريض قد جرب طرق أخرى لإنقاص الوزن مثل النظام الغذائي والتمارين الرياضية.',
+    en: 'The patient should have tried other weight loss methods such as diet and exercise.'
+  },
+  candidateAgeDesc: {
+    ar: 'يجب أن يكون عمر المريض بين 18 و 65 عاماً، مع بعض الاستثناءات في حالات خاصة.',
+    en: 'The patient\'s age should be between 18 and 65 years, with some exceptions in special cases.'
+  },
+  candidateHealthProblemsDesc: {
+    ar: 'وجود مشاكل صحية متعلقة بالسمنة مثل السكري، ارتفاع ضغط الدم، أو انقطاع التنفس أثناء النوم.',
+    en: 'Presence of obesity-related health problems such as diabetes, high blood pressure, or sleep apnea.'
+  },
+  candidateNoPsychiatricDesc: {
+    ar: 'عدم وجود مشاكل نفسية خطيرة أو إدمان على المخدرات أو الكحول.',
+    en: 'No serious psychiatric problems or drug or alcohol addiction.'
+  },
+  candidateUnderstandingDesc: {
+    ar: 'القدرة على فهم المخاطر والالتزامات المرتبطة بالجراحة والتغييرات المطلوبة في نمط الحياة.',
+    en: 'Ability to understand the risks and commitments associated with surgery and the required lifestyle changes.'
+  },
+  candidatePregnancyDesc: {
+    ar: 'عدم توقع الحمل في أول سنتين بعد الجراحة لتجنب المضاعفات المحتملة.',
+    en: 'No pregnancy expected in the first two years after surgery to avoid potential complications.'
+  },
+  candidateFlexibilityTitle: {
+    ar: 'المرونة في المعايير',
+    en: 'Flexibility in Criteria'
+  },
+  // Doctor Guidelines Page
+  doctorGuidelinesTitle: {
+    ar: 'إرشادات الطبيب',
+    en: 'Doctor Guidelines'
+  },
+  doctorGuidelinesIntro: {
+    ar: 'دليل جراحة السمنة في الأردن - جمعية جراحة السمنة الأردنية (JSOS)',
+    en: 'Guidelines for Bariatric Surgery in Jordan - The Jordanian Society for Obesity Surgery (JSOS)'
+  },
+  doctorGuidelinesPurpose: {
+    ar: 'الغرض من هذه المعايير هو ضمان تقديم رعاية سريرية آمنة وعالية الجودة لإدارة الوزن والسمنة. وتوصي بمسارات رعاية تدعم احتياجات المرضى، بما في ذلك التدخلات الجراحية المطلوبة، المطورة وفقاً لأفضل الممارسات الدولية القائمة على الأدلة.',
+    en: 'This standard aims to ensure the delivery of quality and safe clinical care for weight management and obesity. It recommends care pathways in support of patient needs, including where required surgical interventions, developed in accordance with international evidence based best practices.'
+  },
+  doctorGuidelinesScope: {
+    ar: 'ينطبق هذا المعيار على جميع المرافق الصحية والمهنيين المرخص لهم من قبل هيئة الصحة في الأردن. يشير هذا المعيار إلى المرضى الذين يحتاجون تدخلات نمط الحياة والسريرية والجراحية (إجراءات جراحة السمنة).',
+    en: 'This standard applies to all Healthcare Facilities and Professionals licensed by Health Authority in Jordan. This standard refers to patients requiring life style, clinical and surgical interventions (bariatric Surgical procedures).'
+  },
+  doctorGuidelinesDuties: {
+    ar: 'واجبات مقدمي الرعاية الصحية',
+    en: 'Duties for Healthcare Providers'
+  },
+  doctorGuidelinesDutiesContent: {
+    ar: 'يجب على جميع مقدمي الرعاية الصحية، بما في ذلك المرافق الصحية والمهنيين: تقديم الخدمات السريرية وفقاً لمتطلبات هذا المعيار والمعايير السريرية ذات الصلة وضمان أن ممارساتهم تعكس مسارات الرعاية السريرية المعترف بها دولياً القائمة على الأدلة؛ الإبلاغ وتقديم البيانات وفقاً لإدارة البيانات؛ توثيق ومراقبة جودة وسلامة الرعاية السريرية ونتائج التدخل الجراحي لإدارة الوزن المنجز على المرضى.',
+    en: 'All health care providers, including healthcare facilities and professionals, must: Provide clinical services in accordance with the requirements of this Standard, and the relevant Clinical Care Standards and ensure that their practices reflect internationally recognized evidence based clinical care pathways; report and submit data in accordance with the Data Management; Document and monitor quality and safety of clinical care and outcomes of surgical intervention for weight management performed on patients.'
+  },
+  doctorGuidelinesEligibility: {
+    ar: 'معايير أهلية المريض لجراحة السمنة',
+    en: 'Bariatric Surgery Patient Eligibility Criteria'
+  },
+  doctorGuidelinesEligibilityContent: {
+    ar: 'يجب على المقدم ضمان أن جراحة السمنة تُقدم للمرضى الذين يستوفون المعايير التالية: استيفاء المعايير المحددة في الملحق 1؛ الخضوع لجميع التدخلات السريرية الأخرى، مع نتائج غير ناجحة كما هو محدد في الملحق 1؛ اللياقة العامة للتخدير والجراحة؛ الالتزام بالخضوع للمتابعة طويلة المدى من قبل مقدم متخصص في إدارة السمنة.',
+    en: 'The provider must ensure that bariatric surgery delivered to patients who fulfill the following criteria: meet the defined criteria in Appendices 1; have undertaken all other clinical interventions, with unsuccessful outcomes as specified in Appendices1; be generally fit for anaesthesia and surgery; commit to undertaking long-term follow-up by a specialist obesity management provider.'
+  },
+  doctorGuidelinesServiceSpecs: {
+    ar: 'مواصفات الخدمة',
+    en: 'Service Specifications'
+  },
+  doctorGuidelinesServiceSpecsContent: {
+    ar: 'يجب على مقدم الرعاية الصحية استيفاء المتطلبات التالية: ضمان أن فرق متعددة التخصصات تتكون من جميع الموظفين المرخص لهم من هيئة الصحة اللازمين لتقديم الخدمات وفقاً لهذا المعيار، وأن جراحي السمنة يستوفون متطلبات الملحق 2؛ فقط المرافق المستشفى المرخصة من هيئة الصحة (العامة والمتخصصة) مؤهلة لتقديم جراحة السمنة للبالغين.',
+    en: 'The Healthcare Provider must fulfill the following requirements: Ensure that the multi-disciplinary teams comprise of all Health Authority licensed personnel necessary to deliver services in accordance with this standard, and that bariatric surgeons satisfy the requirements of Appendix2; Only Health Authority licensed hospital (general and specialized) facilities are eligible to provide bariatric surgery for adults.'
+  },
+  doctorGuidelinesDownload: {
+    ar: 'تحميل الدليل الكامل',
+    en: 'Download Full Guidelines'
+  },
+  doctorGuidelinesDownloadDesc: {
+    ar: 'للمزيد من المعلومات التفصيلية حول معايير الأهلية، متطلبات المقدمين، وإجراءات التسجيل والمتابعة، يرجى تحميل الدليل الكامل.',
+    en: 'For more detailed information about eligibility criteria, provider requirements, and recording and follow-up procedures, please download the full guidelines.'
+  },
+  // Doctor Guidelines Additional Content
+  doctorGuidelinesIntroDesc: {
+    ar: 'هذه هي التوصيات للجراحين ومقدمي الخدمات في الأردن والتي يجب اتباعها للعمل وفق المعايير الدولية.',
+    en: 'These are the recommendations for surgeons and service providers in Jordan which have to be followed to work at the international standard.'
+  },
+  doctorGuidelinesPurposeTitle: {
+    ar: 'الغرض',
+    en: 'Purpose'
+  },
+  doctorGuidelinesScopeTitle: {
+    ar: 'النطاق',
+    en: 'Scope'
+  },
+  doctorGuidelinesDownloadButton: {
+    ar: 'تحميل الدليل الكامل (PDF)',
+    en: 'Download Full Guidelines (PDF)'
+  },
+  // Appendices
+  doctorGuidelinesAppendix1Title: {
+    ar: 'الملحق 1: معايير الأهلية',
+    en: 'Appendix 1: Eligibility Criteria'
+  },
+  doctorGuidelinesAppendix1Desc: {
+    ar: 'معايير مفصلة لأهلية المرضى لجراحة السمنة، بما في ذلك مؤشر كتلة الجسم، المحاولات السابقة لإنقاص الوزن، والمشاكل الصحية المرتبطة.',
+    en: 'Detailed criteria for patient eligibility for bariatric surgery, including BMI, previous weight loss attempts, and associated health problems.'
+  },
+  doctorGuidelinesAppendix2Title: {
+    ar: 'الملحق 2: متطلبات المقدمين',
+    en: 'Appendix 2: Provider Requirements'
+  },
+  doctorGuidelinesAppendix2Desc: {
+    ar: 'متطلبات المرافق الصحية والجراحين المرخص لهم، بما في ذلك المعدات المطلوبة والفرق متعددة التخصصات.',
+    en: 'Requirements for licensed healthcare facilities and surgeons, including required equipment and multidisciplinary teams.'
+  },
+  doctorGuidelinesAppendix3Title: {
+    ar: 'الملحق 3: تسجيل الإجراءات',
+    en: 'Appendix 3: Procedure Recording'
+  },
+  doctorGuidelinesAppendix3Desc: {
+    ar: 'نماذج لتسجيل الإجراءات الجراحية الشهرية، بما في ذلك معدلات المضاعفات والنتائج.',
+    en: 'Forms for recording monthly surgical procedures, including complication rates and outcomes.'
+  },
+  doctorGuidelinesAppendix4Title: {
+    ar: 'الملحق 4: المتابعة بعد الجراحة',
+    en: 'Appendix 4: Post-Surgery Follow-up'
+  },
+  doctorGuidelinesAppendix4Desc: {
+    ar: 'إجراءات المتابعة بعد الجراحة والتحقق من نتائج المرضى من خط الأساس.',
+    en: 'Post-surgery follow-up procedures and validation of patient outcomes from baseline.'
+  },
   // Events
   eventsTitle: {
     ar: 'الفعاليات القادمة',
@@ -774,7 +1078,7 @@ const translations = {
     ar: 'مثل مجازة المعدة روكس إن واي، يتم تحقيق معظم فقدان الوزن في أول سنتين (>70٪ فقدان الوزن الزائد لمؤشر كتلة الجسم أقل من 50). يمكن رؤية استعادة الوزن وتوسع الكيس المعدي بعد ذلك. في 5 سنوات، هناك فقدان وزن مستدام في نطاق 50-60٪ من الوزن الزائد.',
     en: 'Like the Roux-en-Y gastric bypass, most of the weight loss is achieved in the first 2 years (>70% excess weight loss for BMI less than 50). Weight regain and gastric pouch dilatation can be seen thereafter. At 5 years, there is a sustained weight loss in the range of 50-60% of excess weight.'
   },
-  sleeveGastrectomySuperObese: {
+  sleeveGastrectomyComplications: {
     ar: 'للمرضى المصابين بالسمنة الفائقة، النهج من خطوتين (LSG أولاً متبوعاً بالإكمال إلى تبديل الاثني عشر أو مجازة المعدة) قلل الوفيات والمراضة من الإجراءات المنجزة في مرحلة واحدة. أكثر مضاعفة مخيفة من LSG هي التسريبات المعدية (1-2٪)، تحدث عادة بعد عدة أيام من الجراحة ومعظمها موجود قرب مفصل المعدة-المريء. معظم التسريبات تُعالج الآن بالدعامات المغطاة بالكامل من النيتينول الموضوعة بالمنظار، تُترك في مكانها لعدة أسابيع، وتصريف الخراج. ارتجاع المريء يتحسن في 80٪ من المرضى، ولكن في البعض قد يبقى أو يزداد سوءاً ويتطلب علاج طبي طويل أو التحويل إلى مجازة المعدة روكس إن واي. (4) فشل فقدان الوزن يمكن علاجه بمجموعة متنوعة من الخيارات الجراحية تشمل إعادة استئصال المعدة الطولي، التحويل إلى مجازة المعدة روكس إن واي أو تبديل الاثني عشر. (5,6). اختيار المريض المناسب مهم.',
     en: 'For super-obese patients, a two-stage approach (LSG first followed by completion to a duodenal switch or gastric bypass) has decreased mortality and morbidity from procedures done in one stage. The most feared complication of the LSG is gastric leaks (1-2%), typically occurring several days after surgery and mostly located near the GE junction. Most leaks are now treated with endoscopically placed fully covered nitinol stents, left in place for several weeks, and abscess drainage. GERD reflux is improved in 80% of patients, but in some it may remain or worsen and require prolonged medical therapy or conversion to Roux-en-Y gastric bypass. (4) Weight loss failures can be treated with a variety of surgical options including re-sleeve gastrectomy, conversion to Roux-en-Y gastric bypass or duodenal switch. (5,6). Appropriate patient selection is important.'
   },
@@ -806,6 +1110,98 @@ const translations = {
     ar: 'جاجنر إم، ديتل إم، إريكسون إيه إل، كروسبي آر دي. مسح على استئصال المعدة الطولي بالمنظار (LSG) في القمة الدولية الرابعة للإجماع حول استئصال المعدة الطولي. أوبس سورج. 2013 ديسمبر؛ 23(12):2013-7',
     en: 'Gagner M, Deitel M, Erickson AL, Crosby RD. Survey on laparoscopic sleeve gastrectomy (LSG) at the Fourth International Consensus Summit on Sleeve Gastrectomy. Obes Surg. 2013 Dec;23(12):2013-7'
   },
+
+  // Clinical Trials Content
+  clinicalTrialsTitle: {
+    ar: 'التجارب السريرية',
+    en: 'Clinical Trials'
+  },
+  clinicalTrialsIntro: {
+    ar: 'هناك العديد من الأدوية والعلاجات والجراحات والإجراءات الفعالة. هذا نتيجة للبحث والتجارب السريرية. قبل أن يصل أي دواء أو جراحة إلى السوق، يمر بسلسلة من التجارب السريرية. في هذا القسم ستتعلم عن التجارب السريرية وكيف يمكنك المشاركة في واحدة منها.',
+    en: 'There are many effective drugs, treatments, surgeries and procedures. This is as a result of research and clinical trials. Before any drug or surgery makes it to market it goes through a series of clinical trials. In this section you will learn about clinical trials and how you can participate in one.'
+  },
+  clinicalTrialsWhatTitle: {
+    ar: 'ما هي التجربة السريرية؟',
+    en: 'What is a Clinical Trial?'
+  },
+  clinicalTrialsWhatDesc: {
+    ar: 'التجربة السريرية هي دراسة بحثية تُجرى مع المرضى الذين تم تشخيصهم بأمراض خطيرة وتتضمن عادة اختبار علاجات جديدة أو إيجاد طرق لتحسين العلاجات الموجودة. تُجرى التجارب السريرية في جميع أنحاء العالم في معظم المستشفيات الكبيرة في محاولة لتحسين العلاج للعديد من الأمراض.',
+    en: 'A clinical trial is a research study conducted with patients who have been diagnosed with major illness and generally involves testing of new treatments or finding ways of improving existing treatments. Clinical trials are conducted all over the world in most large hospitals in an attempt to improve treatment for many diseases.'
+  },
+  clinicalTrialsObjective: {
+    ar: 'الهدف الرئيسي من التجربة السريرية هو مقارنة مجموعتين أو أكثر من الأشخاص، باستخدام خيارين أو أكثر من خيارات العلاج لتحديد فعالية دواء أو علاج بيولوجي مقترح.',
+    en: 'The main objective of a clinical trial is to compare two or more groups of subjects, using two or more treatment options to determine the effectiveness of a proposed drug or biological treatment.'
+  },
+  clinicalTrialsDesign: {
+    ar: 'التجارب السريرية مصممة بعناية وأخلاقية للسماح بجمع وتحليل دقيق وصادق للمعلومات لمعرفة المزيد عن المرض. مثل هذه التجارب تساعد في اكتشاف ما إذا كان العلاج الجديد الواعد آمناً وفعالاً، وكذلك إعطاء فهم أفضل للعلاج القياسي الحالي، على أمل تحسين الآثار الجانبية التي يعاني منها العديد من المرضى.',
+    en: 'Clinical trials are carefully and ethically designed to allow truthful and precise collection and analysis of information to find out more about a disease. Such trials help discover whether a promising new treatment is safe and effective, as well as giving a better understanding of the current standard treatment, in the hope of improving the side effects experienced by many patients.'
+  },
+  clinicalTrialsTypesTitle: {
+    ar: 'أنواع التجارب',
+    en: 'Types of Trials'
+  },
+  clinicalTrialsTypesIntro: {
+    ar: 'تُجرى التجارب السريرية في أربع مراحل قبل أن يمكن اعتبارها للتسجيل والاستخدام.',
+    en: 'Clinical trials are conducted in four phases before they can be considered for registration and use.'
+  },
+  clinicalTrialsPhase1: {
+    ar: 'تتضمن تجارب المرحلة الأولى عدداً صغيراً من المرضى ومصممة لاختبار سلامة وجرعة دواء جديد وتقييم الآثار الجانبية لمستويات جرعات مختلفة.',
+    en: 'Phase I trials involve a small number of patients and are designed to test the safety and dosage of a new drug and to evaluate side effects of various dosage levels.'
+  },
+  clinicalTrialsPhase2: {
+    ar: 'تتضمن تجارب المرحلة الثانية أعداداً أكبر من المرضى واختبار فعالية العلاج المعطى في جرعة معينة.',
+    en: 'Phase II trials involve larger numbers of patients and test the effectiveness of a treatment given in a particular dose.'
+  },
+  clinicalTrialsPhase3: {
+    ar: 'تجارب المرحلة الثالثة هي فحوصات كاملة النطاق للتحكم في الأدوية أو العلاجات الجديدة ومصممة لاستكشاف أكثر اكتمالاً للفوائد والمخاطر المحتملة للعلاج قيد الدراسة. غالباً، يُقارن العلاج القياسي أو الحالي بعلاج أحدث وربما أفضل. هذه التجربة هي تجربة عشوائية، مما يعني أن العلاج يُختار عشوائياً - لا يمكن للمريض ولا الطبيب أن يقررا أي علاج سيحصل عليه المريض. هذا يضمن تخصيص عدد متساوٍ من المرضى لكل علاج وإزالة أي تحيز قد يكون لدى الطبيب أو المريض لعلاج واحد أو آخر.',
+    en: 'Phase III trials are full-scale controlled examinations of new drugs or treatments and are designed to more fully explore the potential benefits and risks of the treatment under study. Often, the standard or current treatment is compared to a newer and potentially better treatment. This trial is a randomised trial, meaning the treatment is chosen at random- neither the patient nor the doctor can decide which treatment the patient will receive. This ensures an equal number of patients are allocated to each treatment and removes any bias the doctor or patient may have to one treatment or another.'
+  },
+  clinicalTrialsPhase4: {
+    ar: 'تجارب المرحلة الرابعة تسمح للشركات الدوائية بمراقبة أي آثار جانبية ضارة على نطاق أوسع من دراسات المرحلة الثالثة وتساعد في توضيح استخدامات أخرى للأدوية، على سبيل المثال، علاج مرض آخر.',
+    en: 'Phase IV trials allow pharmaceutical companies to monitor any adverse side effects on a larger scale than Phase III studies and help clarify other uses for the drugs, for example, treatment of another disease.'
+  },
+  clinicalTrialsWhyTitle: {
+    ar: 'لماذا يجب أن أدخل تجربة سريرية؟',
+    en: 'Why should I enter a Clinical Trial?'
+  },
+  clinicalTrialsWhyDesc: {
+    ar: 'يشارك المرضى في التجارب السريرية لأسباب عديدة، عادة مع أمل الحصول على فوائد علاجية مباشرة لأنفسهم. قد يشمل هذا فرصة أكبر للشفاء، أو وقت أطول للعيش أو جودة حياة أفضل. أحياناً يريد المرضى المساهمة في البحث الذي سيساعد المصابين المستقبليين بالمرض.',
+    en: 'Patients take part in clinical trials for many reasons, usually with the hope of direct treatment benefits for themselves. This might include a greater chance of a cure, a longer time to live or better quality of life. Sometimes patients want to contribute to research that will help future sufferers of the disease.'
+  },
+  clinicalTrialsBenefits: {
+    ar: 'المرضى الذين يشاركون في التجارب السريرية، والتي تُرى فيها نتائج محسنة، لديهم الفرصة الأولى للاستفادة من هذه العلاجات المحسنة.',
+    en: 'Patients who participate in clinical trials, in which improved results are seen, have the first chance to benefit from these improved treatments.'
+  },
+  clinicalTrialsHowTitle: {
+    ar: 'كيف يمكنني المشاركة في تجربة سريرية؟',
+    en: 'How do I participate in a Clinical Trial?'
+  },
+  clinicalTrialsHowDesc: {
+    ar: 'قبل أن توافق على المشاركة في تجربة سريرية، سيتم إعطاؤك ورقة معلومات تحتوي على جميع المعلومات حول التجربة، بما في ذلك المخاطر والفوائد. مع أي شكل من أشكال العلاج الذي يتم تقييمه في تجربة سريرية، يمكن أن تحدث آثار جانبية وهذا دائماً متوازن ضد فوائد العلاج. ستُعطى أيضاً الفرصة لمناقشة التجربة مع طبيبك المعالج، الذي سيكون قادراً على الإجابة على أي أسئلة.',
+    en: 'Before you consent to participate in a clinical trial, you will be given an information sheet, which contains all the information about the trial, including the risks and benefits. With any form of treatment being assessed in a clinical trial, side effects can be experienced and this is always balanced against the benefits of treatment. You will also be given the opportunity to discuss the trial with your treating doctor, who will be able to answer any questions.'
+  },
+  clinicalTrialsConsent: {
+    ar: 'إذا وافقت على المشاركة سيُطلب منك التوقيع على نموذج موافقة، يوضح أنك قرأت وفهمت الغرض من التجربة والمخاطر والفوائد المرتبطة بها. أنت حر في الانسحاب من التجربة في أي وقت. جميع الرموز الأخلاقية والقانونية التي تنطبق على الممارسة الطبية تُتبع بعناية في التجارب السريرية.',
+    en: 'If you agree to participate you will be asked to sign a consent form, stating that you have read and understood the purpose of the trial and the risks and benefits attached to it. You are free to withdraw from the trial at any time. All the ethical and legal codes that apply to medical practice are carefully followed in clinical trials.'
+  },
+  phase1: {
+    ar: 'المرحلة الأولى',
+    en: 'Phase 1'
+  },
+  phase2: {
+    ar: 'المرحلة الثانية',
+    en: 'Phase 2'
+  },
+  phase3: {
+    ar: 'المرحلة الثالثة',
+    en: 'Phase 3'
+  },
+  phase4: {
+    ar: 'المرحلة الرابعة',
+    en: 'Phase 4'
+  },
+
+
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
