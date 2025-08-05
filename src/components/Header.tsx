@@ -129,12 +129,6 @@ const Header = () => {
                   <Link to="/fourth-congress" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
                     {t('navFourthCongress')}
                   </Link>
-                  <Link to="/al-kindi-workshop" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
-                    {t('navAlKindiWorkshop')}
-                  </Link>
-                  <Link to="/workshop" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
-                    {t('navWorkshop')}
-                  </Link>
                 </div>
               </HoverCardContent>
             </HoverCard>
@@ -340,12 +334,6 @@ const Header = () => {
             <Link to="/fourth-congress" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navFourthCongress')}
             </Link>
-            <Link to="/al-kindi-workshop" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navAlKindiWorkshop')}
-            </Link>
-            <Link to="/workshop" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
-              {t('navWorkshop')}
-            </Link>
             
             <div className="border-t border-gray-200 my-1"></div>
             <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navGuides')}</div>
@@ -399,7 +387,7 @@ const Header = () => {
             </Link>
             
             <div className="border-t border-gray-200 my-1"></div>
-            <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navGuides')}</div>
+            <div className="py-2 px-4 text-jsos-green-700 font-medium">{t('navMedia')}</div>
             <Link to="/news" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navNews')}
             </Link>

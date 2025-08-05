@@ -39,7 +39,7 @@ const AboutUsContent = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-jsos-green-700">{t('visionTitle')}</h3>
+                  <h3 className="text-2xl mx-2 font-bold text-jsos-green-700">{t('visionTitle')}</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">{t('visionContent')}</p>
               </div>
@@ -51,7 +51,7 @@ const AboutUsContent = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-jsos-green-700">{t('missionTitle')}</h3>
+                  <h3 className="text-2xl font-bold mx-2 text-jsos-green-700">{t('missionTitle')}</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">{t('missionContent')}</p>
               </div>
@@ -80,7 +80,7 @@ const AboutUsContent = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <div>{t('aboutJordanAchievementsTitle')}</div>
+                    <div className='mx-2'>{t('aboutJordanAchievementsTitle')}</div>
                   </div>
                 </h3>
               </div>
@@ -99,7 +99,7 @@ const AboutUsContent = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                   <div>
-                    <div>{t('aboutFoundationTitle')}</div>
+                    <div className='mx-2'>{t('aboutFoundationTitle')}</div>
                   </div>
                 </h3>
               </div>
@@ -121,7 +121,7 @@ const AboutUsContent = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                   <div>
-                    <div>{t('aboutScientificMeetingsTitle')}</div>
+                    <div className='mx-2'>{t('aboutScientificMeetingsTitle')}</div>
                   </div>
                 </h3>
               </div>
@@ -140,7 +140,7 @@ const AboutUsContent = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
                   </svg>
                   <div>
-                    <div>{t('aboutNecessityTitle')}</div>
+                    <div className='mx-2'>{t('aboutNecessityTitle')}</div>
                   </div>
                 </h3>
               </div>

@@ -66,7 +66,7 @@ const BmiContent = () => {
       <Header />
       <main className="flex-grow pt-24">
         <div className="container-custom mx-auto py-12">
-          <h1 className="section-title text-center animate-on-scroll">{t('navBmi')}</h1>
+          <h1 className="section-title text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px] text-center animate-on-scroll">{t('navBmi')}</h1>
           <p className="text-center text-gray-600 mb-8 animate-on-scroll max-w-2xl mx-auto">
             {language === 'ar' 
               ? 'مؤشر كتلة الجسم (BMI) هو قياس للعلاقة بين وزنك وطولك. يستخدم لتقييم ما إذا كان وزنك في النطاق الصحي.' 

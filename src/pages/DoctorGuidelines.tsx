@@ -19,7 +19,7 @@ const DoctorGuidelinesContent = () => {
       <Header />
       <main className="flex-grow pt-24">
         <div className="container-custom mx-auto py-12">
-          <h1 className="section-title text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px]">{t('doctorGuidelinesTitle')}</h1>
+          {/* <h1 className="section-title text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px]">{t('doctorGuidelinesTitle')}</h1>
           
           <div className="w-full mb-8">
             <img 
@@ -29,7 +29,7 @@ const DoctorGuidelinesContent = () => {
               style={{ maxHeight: '400px' }}
             />
           </div>
-          
+           */}
           <div className="prose prose-lg max-w-none">
             <div className="bg-gradient-to-r from-jsos-green-600 to-jsos-green-700 rounded-2xl p-8 text-white mb-8">
               <h2 className="text-3xl font-bold mb-4">{t('doctorGuidelinesIntro')}</h2>

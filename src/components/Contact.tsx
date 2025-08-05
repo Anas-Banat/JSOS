@@ -85,8 +85,7 @@ const Contact = () => {
       <div className="container-custom mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mb-8 md:mb-0 animate-on-scroll">
-            <h2 className="section-title">{t('contactTitle')}</h2>
-            <p className="text-lg text-muted-foreground mb-8">{t('contactSubtitle')}</p>
+            <p className="section-title text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px]">{t('contactSubtitle')}</p>
             
             <div className="space-y-6">
               <div className="flex items-start">

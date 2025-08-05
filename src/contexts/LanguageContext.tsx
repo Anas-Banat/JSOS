@@ -44,8 +44,8 @@ const translations = {
     en: 'Congress'
   },
   navFirstCongress: {
-    ar: 'المؤتمر الأول للجمعية',
-    en: 'First JSOS Congress'
+    ar: 'المؤتمر الأول',
+    en: 'First Congress'
   },
   navSecondCongress: {
     ar: 'المؤتمر الثاني',
@@ -108,8 +108,8 @@ const translations = {
     en: 'BMI'
   },
   navCandidate: {
-    ar: 'هل أنت مرشح؟',
-    en: 'Are You a Candidate'
+    ar: 'هل أنت مرشح لجراحة السمنة؟',
+    en: 'Are You a Candidate for Bariatric Surgery?'
   },
   navDisease: {
     ar: 'المرض',
@@ -333,8 +333,8 @@ const translations = {
   },
   // Candidate Page
   candidateTitle: {
-    ar: 'هل أنت مرشح؟',
-    en: 'Are You a Candidate?'
+    ar: 'هل أنت مرشح لجراحة السمنة؟',
+    en: 'Are You a Candidate for Bariatric Surgery?'
   },
   candidateIntro: {
     ar: 'هناك عدد من المعايير المقبولة على نطاق واسع والتي تجعل المريض مناسباً لجراحة السمنة أو إنقاص الوزن:',
@@ -515,6 +515,318 @@ const translations = {
   doctorGuidelinesAppendix4Desc: {
     ar: 'إجراءات المتابعة بعد الجراحة والتحقق من نتائج المرضى من خط الأساس.',
     en: 'Post-surgery follow-up procedures and validation of patient outcomes from baseline.'
+  },
+  // Practical Recommendations Page
+  practicalRecommendationsTitle: {
+    ar: 'التوصيات العملية للسمنة',
+    en: 'Practical Recommendations of Obesity'
+  },
+  practicalRecommendationsIntro: {
+    ar: 'التوصيات العملية للجمعية الأوروبية لدراسة السمنة (EASO)',
+    en: 'Practical Recommendations of the European Association for the Study of Obesity (EASO)'
+  },
+  practicalRecommendationsDesc: {
+    ar: 'هذه التوصيات العملية تقدم إرشادات شاملة لإدارة السمنة وعلاجها، بناءً على أحدث الأدلة العلمية والممارسات السريرية المثلى.',
+    en: 'These practical recommendations provide comprehensive guidelines for obesity management and treatment, based on the latest scientific evidence and best clinical practices.'
+  },
+  practicalRecommendationsPurpose: {
+    ar: 'الغرض من هذه التوصيات',
+    en: 'Purpose of These Recommendations'
+  },
+  practicalRecommendationsPurposeContent: {
+    ar: 'تهدف هذه التوصيات إلى توفير إرشادات عملية ومبنية على الأدلة للأطباء والمهنيين الصحيين في مجال إدارة وعلاج السمنة، مع التركيز على النهج متعدد التخصصات والرعاية المخصصة للمرضى.',
+    en: 'These recommendations aim to provide practical, evidence-based guidelines for physicians and healthcare professionals in the field of obesity management and treatment, with a focus on multidisciplinary approaches and patient-centered care.'
+  },
+  practicalRecommendationsScope: {
+    ar: 'نطاق التوصيات',
+    en: 'Scope of Recommendations'
+  },
+  practicalRecommendationsScopeContent: {
+    ar: 'تغطي هذه التوصيات جميع جوانب إدارة السمنة، من التشخيص والتقييم الأولي إلى العلاج طويل المدى والمتابعة، بما في ذلك التدخلات الجراحية والطبية ونمط الحياة.',
+    en: 'These recommendations cover all aspects of obesity management, from diagnosis and initial assessment to long-term treatment and follow-up, including surgical, medical, and lifestyle interventions.'
+  },
+  practicalRecommendationsKeyAreas: {
+    ar: 'المجالات الرئيسية',
+    en: 'Key Areas'
+  },
+  practicalRecommendationsKeyAreasContent: {
+    ar: 'التوصيات تغطي المجالات التالية: التقييم الشامل للمريض، استراتيجيات إنقاص الوزن، التدخلات الطبية والجراحية، الوقاية من زيادة الوزن مرة أخرى، والمتابعة طويلة المدى.',
+    en: 'The recommendations cover the following areas: comprehensive patient assessment, weight loss strategies, medical and surgical interventions, prevention of weight regain, and long-term follow-up.'
+  },
+  practicalRecommendationsDownload: {
+    ar: 'تحميل التوصيات الكاملة',
+    en: 'Download Full Recommendations'
+  },
+  practicalRecommendationsDownloadDesc: {
+    ar: 'للمزيد من المعلومات التفصيلية حول التوصيات العملية لإدارة السمنة، يرجى تحميل الوثيقة الكاملة.',
+    en: 'For more detailed information about practical recommendations for obesity management, please download the full document.'
+  },
+  // Practical Recommendations Key Areas
+  practicalRecommendationsAssessmentTitle: {
+    ar: 'التقييم الشامل',
+    en: 'Comprehensive Assessment'
+  },
+  practicalRecommendationsAssessmentDesc: {
+    ar: 'تقييم شامل للمريض يشمل التاريخ الطبي، الفحص البدني، التحاليل المخبرية، والتقييم النفسي والاجتماعي.',
+    en: 'Comprehensive patient assessment including medical history, physical examination, laboratory tests, and psychosocial evaluation.'
+  },
+  practicalRecommendationsWeightLossTitle: {
+    ar: 'استراتيجيات إنقاص الوزن',
+    en: 'Weight Loss Strategies'
+  },
+  practicalRecommendationsWeightLossDesc: {
+    ar: 'استراتيجيات متعددة لإنقاص الوزن تشمل التعديلات الغذائية، النشاط البدني، والتدخلات السلوكية.',
+    en: 'Multiple weight loss strategies including dietary modifications, physical activity, and behavioral interventions.'
+  },
+  practicalRecommendationsInterventionsTitle: {
+    ar: 'التدخلات الطبية والجراحية',
+    en: 'Medical and Surgical Interventions'
+  },
+  practicalRecommendationsInterventionsDesc: {
+    ar: 'خيارات العلاج الطبي والجراحي المتاحة، مع التركيز على الفوائد والمخاطر لكل خيار.',
+    en: 'Available medical and surgical treatment options, with focus on benefits and risks of each option.'
+  },
+  practicalRecommendationsFollowUpTitle: {
+    ar: 'المتابعة طويلة المدى',
+    en: 'Long-term Follow-up'
+  },
+  practicalRecommendationsFollowUpDesc: {
+    ar: 'برامج المتابعة طويلة المدى للوقاية من زيادة الوزن مرة أخرى وضمان النجاح المستمر للعلاج.',
+    en: 'Long-term follow-up programs for prevention of weight regain and ensuring sustained treatment success.'
+  },
+  // European Guidelines Page
+  europeanGuidelinesTitle: {
+    ar: 'الإرشادات الأوروبية متعددة التخصصات لجراحة التمثيل الغذائي والسمنة',
+    en: 'Interdisciplinary European Guidelines on Metabolic and Bariatric Surgery'
+  },
+  europeanGuidelinesIntro: {
+    ar: 'الإرشادات الأوروبية متعددة التخصصات لجراحة التمثيل الغذائي والسمنة - IFSO-EC و EASO',
+    en: 'Interdisciplinary European Guidelines on Metabolic and Bariatric Surgery - IFSO-EC and EASO'
+  },
+  europeanGuidelinesDesc: {
+    ar: 'هذه الإرشادات تم تطويرها من قبل الاتحاد الدولي لجراحة السمنة والاضطرابات الأيضية - الفصل الأوروبي (IFSO-EC) والجمعية الأوروبية لدراسة السمنة (EASO) لتوفير معايير شاملة لجراحة السمنة والتمثيل الغذائي.',
+    en: 'These guidelines were developed by the International Federation for the Surgery of Obesity and Metabolic Disorders-European Chapter (IFSO-EC) and the European Association for the Study of Obesity (EASO) to provide comprehensive standards for metabolic and bariatric surgery.'
+  },
+  europeanGuidelinesPurpose: {
+    ar: 'الغرض من الإرشادات',
+    en: 'Purpose of Guidelines'
+  },
+  europeanGuidelinesPurposeContent: {
+    ar: 'تهدف هذه الإرشادات إلى تحديث المعايير السريرية لتعكس المعرفة الحالية والخبرة والبيانات المبنية على الأدلة في مجال جراحة التمثيل الغذائي والسمنة، مع التركيز على إدارة شاملة للسمنة والأمراض المرتبطة بها.',
+    en: 'These guidelines aim to update clinical standards to reflect current knowledge, expertise and evidence-based data in the field of metabolic and bariatric surgery, with a focus on comprehensive management of obesity and obesity-associated diseases.'
+  },
+  europeanGuidelinesScope: {
+    ar: 'نطاق الإرشادات',
+    en: 'Scope of Guidelines'
+  },
+  europeanGuidelinesScopeContent: {
+    ar: 'تغطي الإرشادات جميع جوانب جراحة السمنة والتمثيل الغذائي، من معايير أهلية المرضى إلى التقنيات الجراحية، المتابعة طويلة المدى، وإدارة المضاعفات.',
+    en: 'The guidelines cover all aspects of metabolic and bariatric surgery, from patient eligibility criteria to surgical techniques, long-term follow-up, and complication management.'
+  },
+  europeanGuidelinesKeyAreas: {
+    ar: 'المجالات الرئيسية',
+    en: 'Key Areas'
+  },
+  europeanGuidelinesKeyAreasContent: {
+    ar: 'الإرشادات تغطي المجالات التالية: معايير الأهلية، التقنيات الجراحية، إدارة المضاعفات، المتابعة طويلة المدى، والرعاية متعددة التخصصات.',
+    en: 'The guidelines cover the following areas: eligibility criteria, surgical techniques, complication management, long-term follow-up, and multidisciplinary care.'
+  },
+  europeanGuidelinesDownload: {
+    ar: 'تحميل الإرشادات الكاملة',
+    en: 'Download Full Guidelines'
+  },
+  europeanGuidelinesDownloadDesc: {
+    ar: 'للمزيد من المعلومات التفصيلية حول الإرشادات الأوروبية لجراحة التمثيل الغذائي والسمنة، يرجى تحميل الوثيقة الكاملة.',
+    en: 'For more detailed information about European guidelines for metabolic and bariatric surgery, please download the full document.'
+  },
+  // European Guidelines Key Areas
+  europeanGuidelinesEligibilityTitle: {
+    ar: 'معايير الأهلية',
+    en: 'Eligibility Criteria'
+  },
+  europeanGuidelinesEligibilityDesc: {
+    ar: 'معايير مفصلة لأهلية المرضى لجراحة السمنة والتمثيل الغذائي، بما في ذلك مؤشر كتلة الجسم، الأمراض المصاحبة، والمحاولات السابقة لإنقاص الوزن.',
+    en: 'Detailed criteria for patient eligibility for metabolic and bariatric surgery, including BMI, comorbidities, and previous weight loss attempts.'
+  },
+  europeanGuidelinesSurgicalTitle: {
+    ar: 'التقنيات الجراحية',
+    en: 'Surgical Techniques'
+  },
+  europeanGuidelinesSurgicalDesc: {
+    ar: 'وصف شامل للتقنيات الجراحية المختلفة المستخدمة في جراحة السمنة والتمثيل الغذائي، مع التركيز على الفوائد والمخاطر.',
+    en: 'Comprehensive description of different surgical techniques used in metabolic and bariatric surgery, with focus on benefits and risks.'
+  },
+  europeanGuidelinesComplicationsTitle: {
+    ar: 'إدارة المضاعفات',
+    en: 'Complication Management'
+  },
+  europeanGuidelinesComplicationsDesc: {
+    ar: 'إرشادات شاملة لإدارة المضاعفات المحتملة بعد جراحة السمنة، بما في ذلك المضاعفات المبكرة والمتأخرة.',
+    en: 'Comprehensive guidelines for managing potential complications after bariatric surgery, including early and late complications.'
+  },
+  europeanGuidelinesFollowUpTitle: {
+    ar: 'المتابعة طويلة المدى',
+    en: 'Long-term Follow-up'
+  },
+  europeanGuidelinesFollowUpDesc: {
+    ar: 'بروتوكولات المتابعة طويلة المدى للمرضى بعد جراحة السمنة، بما في ذلك المراقبة الغذائية والطبية.',
+    en: 'Long-term follow-up protocols for patients after bariatric surgery, including nutritional and medical monitoring.'
+  },
+  // Obesity in 195 Countries Page
+  obesity195CountriesTitle: {
+    ar: 'الآثار الصحية للوزن الزائد والسمنة في 195 دولة على مدى 25 عاماً',
+    en: 'Health Effects of Overweight and Obesity in 195 Countries over 25 Years'
+  },
+  obesity195CountriesIntro: {
+    ar: 'دراسة شاملة حول الآثار الصحية للوزن الزائد والسمنة - مجلة نيو إنجلاند للطب',
+    en: 'Comprehensive Study on Health Effects of Overweight and Obesity - New England Journal of Medicine'
+  },
+  obesity195CountriesDesc: {
+    ar: 'هذه الدراسة الشاملة التي نشرت في مجلة نيو إنجلاند للطب تحلل البيانات من 68.5 مليون شخص لتقييم اتجاهات انتشار الوزن الزائد والسمنة بين الأطفال والبالغين بين عامي 1980 و 2015.',
+    en: 'This comprehensive study published in the New England Journal of Medicine analyzes data from 68.5 million persons to assess trends in the prevalence of overweight and obesity among children and adults between 1980 and 2015.'
+  },
+  obesity195CountriesPurpose: {
+    ar: 'الغرض من الدراسة',
+    en: 'Purpose of the Study'
+  },
+  obesity195CountriesPurposeContent: {
+    ar: 'تهدف الدراسة إلى توفير معلومات محدثة حول مستويات مؤشر كتلة الجسم المرتفع والآثار الصحية على مستوى السكان، مع التركيز على العلاقة بين مؤشر كتلة الجسم المرتفع والأمراض المزمنة المختلفة.',
+    en: 'The study aims to provide timely information about levels of high BMI and health effects at the population level, with a focus on the relationship between high BMI and various chronic diseases.'
+  },
+  obesity195CountriesScope: {
+    ar: 'نطاق الدراسة',
+    en: 'Scope of the Study'
+  },
+  obesity195CountriesScopeContent: {
+    ar: 'تغطي الدراسة 195 دولة وتشمل تحليلاً شاملاً لانتشار السمنة والوزن الزائد، عبء المرض المرتبط بمؤشر كتلة الجسم المرتفع، والاتجاهات العالمية على مدى 25 عاماً.',
+    en: 'The study covers 195 countries and includes comprehensive analysis of obesity and overweight prevalence, disease burden related to high BMI, and global trends over 25 years.'
+  },
+  obesity195CountriesKeyFindings: {
+    ar: 'النتائج الرئيسية',
+    en: 'Key Findings'
+  },
+  obesity195CountriesKeyFindingsContent: {
+    ar: 'في عام 2015، كان هناك 107.7 مليون طفل و 603.7 مليون بالغ يعانون من السمنة. منذ عام 1980، تضاعف انتشار السمنة في أكثر من 70 دولة واستمر في الزيادة في معظم الدول الأخرى.',
+    en: 'In 2015, a total of 107.7 million children and 603.7 million adults were obese. Since 1980, the prevalence of obesity has doubled in more than 70 countries and has continuously increased in most other countries.'
+  },
+  obesity195CountriesDownload: {
+    ar: 'تحميل الدراسة الكاملة',
+    en: 'Download Full Study'
+  },
+  obesity195CountriesDownloadDesc: {
+    ar: 'للمزيد من المعلومات التفصيلية حول الدراسة الشاملة حول الآثار الصحية للوزن الزائد والسمنة في 195 دولة، يرجى تحميل الوثيقة الكاملة.',
+    en: 'For more detailed information about the comprehensive study on health effects of overweight and obesity in 195 countries, please download the full document.'
+  },
+  // Obesity in 195 Countries Key Areas
+  obesity195CountriesGlobalTitle: {
+    ar: 'الانتشار العالمي',
+    en: 'Global Prevalence'
+  },
+  obesity195CountriesGlobalDesc: {
+    ar: 'تحليل شامل لانتشار السمنة والوزن الزائد في 195 دولة، مع التركيز على الاتجاهات الإقليمية والاختلافات بين الدول.',
+    en: 'Comprehensive analysis of obesity and overweight prevalence in 195 countries, with focus on regional trends and country differences.'
+  },
+  obesity195CountriesHealthTitle: {
+    ar: 'الآثار الصحية',
+    en: 'Health Effects'
+  },
+  obesity195CountriesHealthDesc: {
+    ar: 'تقييم الآثار الصحية للسمنة والوزن الزائد، بما في ذلك الأمراض القلبية الوعائية، السكري، السرطان، والاضطرابات العضلية الهيكلية.',
+    en: 'Assessment of health effects of obesity and overweight, including cardiovascular diseases, diabetes, cancer, and musculoskeletal disorders.'
+  },
+  obesity195CountriesBurdenTitle: {
+    ar: 'عبء المرض',
+    en: 'Disease Burden'
+  },
+  obesity195CountriesBurdenDesc: {
+    ar: 'تحليل عبء المرض المرتبط بمؤشر كتلة الجسم المرتفع، بما في ذلك الوفيات وسنوات العمر المصححة باحتساب الإعاقة.',
+    en: 'Analysis of disease burden related to high BMI, including deaths and disability-adjusted life-years.'
+  },
+  obesity195CountriesTrendsTitle: {
+    ar: 'الاتجاهات العالمية',
+    en: 'Global Trends'
+  },
+  obesity195CountriesTrendsDesc: {
+    ar: 'تحليل الاتجاهات العالمية للسمنة والوزن الزائد على مدى 25 عاماً، مع التركيز على التغيرات في الانتشار والعبء الصحي.',
+    en: 'Analysis of global trends in obesity and overweight over 25 years, with focus on changes in prevalence and health burden.'
+  },
+  // Nutritional Guidelines Page
+  nutritionalGuidelinesTitle: {
+    ar: 'الإرشادات التغذوية المتكاملة للجمعية الأمريكية لجراحة التمثيل الغذائي والسمنة 2016',
+    en: 'ASMBS Integrated Health Nutritional Guidelines for the Surgical Weight Loss Patient 2016 Update'
+  },
+  nutritionalGuidelinesIntro: {
+    ar: 'الإرشادات التغذوية المتكاملة للجمعية الأمريكية لجراحة التمثيل الغذائي والسمنة - تحديث 2016',
+    en: 'American Society for Metabolic and Bariatric Surgery Integrated Health Nutritional Guidelines - 2016 Update'
+  },
+  nutritionalGuidelinesDesc: {
+    ar: 'هذه الإرشادات التغذوية المحدثة تركز على المغذيات الدقيقة وتوفر توصيات شاملة للفحص قبل وبعد الجراحة، المكملات الوقائية، وإعادة تعويض نقص المغذيات في مرضى جراحة إنقاص الوزن.',
+    en: 'These updated nutritional guidelines focus on micronutrients and provide comprehensive recommendations for preoperative and postoperative screening, preventative supplementation, and repletion of nutrient deficiencies in weight loss surgery patients.'
+  },
+  nutritionalGuidelinesPurpose: {
+    ar: 'الغرض من الإرشادات',
+    en: 'Purpose of Guidelines'
+  },
+  nutritionalGuidelinesPurposeContent: {
+    ar: 'تهدف هذه الإرشادات إلى تحسين نتائج المرضى بعد الجراحة والحالة التغذوية من خلال التعليم المناسب قبل وبعد جراحة إنقاص الوزن حول نقص المغذيات المتوقع المرتبط بالتغيرات الفسيولوجية.',
+    en: 'These guidelines aim to optimize postoperative patient outcomes and nutritional status through appropriate education before and after weight loss surgery on expected nutrient deficiencies associated with physiological alterations.'
+  },
+  nutritionalGuidelinesScope: {
+    ar: 'نطاق الإرشادات',
+    en: 'Scope of Guidelines'
+  },
+  nutritionalGuidelinesScopeContent: {
+    ar: 'تغطي الإرشادات 92 توصية جديدة، مع التركيز على الفيتامينات B1 و B12، حمض الفوليك، الحديد، الفيتامينات A و E و K، الكالسيوم، فيتامين D، النحاس، والزنك.',
+    en: 'The guidelines cover 92 new recommendations, focusing on vitamins B1 and B12, folate, iron, vitamins A, E, and K, calcium, vitamin D, copper, and zinc.'
+  },
+  nutritionalGuidelinesKeyFindings: {
+    ar: 'النتائج الرئيسية',
+    en: 'Key Findings'
+  },
+  nutritionalGuidelinesKeyFindingsContent: {
+    ar: 'تشير البيانات إلى أن انتشار نقص المغذيات الدقيقة آخذ في الازدياد، بينما ينخفض مراقبة المرضى في المتابعة. تم مراجعة 402 مقالة من أصل 554 مقالة تم تحديدها.',
+    en: 'Data continue to suggest that the prevalence of micronutrient deficiencies is increasing, while monitoring of patients at follow-up is decreasing. 402 articles were reviewed out of 554 identified articles.'
+  },
+  nutritionalGuidelinesDownload: {
+    ar: 'تحميل الإرشادات الكاملة',
+    en: 'Download Full Guidelines'
+  },
+  nutritionalGuidelinesDownloadDesc: {
+    ar: 'للمزيد من المعلومات التفصيلية حول الإرشادات التغذوية المحدثة للجمعية الأمريكية لجراحة التمثيل الغذائي والسمنة، يرجى تحميل الوثيقة الكاملة.',
+    en: 'For more detailed information about the updated nutritional guidelines from the American Society for Metabolic and Bariatric Surgery, please download the full document.'
+  },
+  // Nutritional Guidelines Key Areas
+  nutritionalGuidelinesScreeningTitle: {
+    ar: 'الفحص قبل الجراحة',
+    en: 'Preoperative Screening'
+  },
+  nutritionalGuidelinesScreeningDesc: {
+    ar: 'توصيات شاملة للفحص الروتيني لنقص المغذيات قبل جراحة إنقاص الوزن، بما في ذلك الفيتامينات والمعادن الأساسية.',
+    en: 'Comprehensive recommendations for routine screening of nutrient deficiencies before weight loss surgery, including essential vitamins and minerals.'
+  },
+  nutritionalGuidelinesSupplementationTitle: {
+    ar: 'المكملات الوقائية',
+    en: 'Preventative Supplementation'
+  },
+  nutritionalGuidelinesSupplementationDesc: {
+    ar: 'إرشادات للمكملات الوقائية للمغذيات الدقيقة قبل وبعد جراحة إنقاص الوزن لضمان الحالة التغذوية المثلى.',
+    en: 'Guidelines for preventative supplementation of micronutrients before and after weight loss surgery to ensure optimal nutritional status.'
+  },
+  nutritionalGuidelinesRepletionTitle: {
+    ar: 'إعادة تعويض النقص',
+    en: 'Nutrient Repletion'
+  },
+  nutritionalGuidelinesRepletionDesc: {
+    ar: 'استراتيجيات إعادة تعويض نقص المغذيات في مرضى جراحة إنقاص الوزن، مع التركيز على الفيتامينات والمعادن الأساسية.',
+    en: 'Strategies for repletion of nutrient deficiencies in weight loss surgery patients, with focus on essential vitamins and minerals.'
+  },
+  nutritionalGuidelinesMonitoringTitle: {
+    ar: 'المراقبة والمتابعة',
+    en: 'Monitoring and Follow-up'
+  },
+  nutritionalGuidelinesMonitoringDesc: {
+    ar: 'بروتوكولات المراقبة والمتابعة طويلة المدى للحالة التغذوية للمرضى بعد جراحة إنقاص الوزن.',
+    en: 'Long-term monitoring and follow-up protocols for nutritional status of patients after weight loss surgery.'
   },
   // Events
   eventsTitle: {

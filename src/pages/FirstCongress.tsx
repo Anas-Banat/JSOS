@@ -13,10 +13,14 @@ const FirstCongressContent = () => {
       <Header />
       <main className="flex-grow pt-24">
         <div className="container-custom mx-auto py-12">
-          <h1 className="section-title">{t('firstCongressTitle') || 'First JSOS Congress'}</h1>
-          <p className="text-lg mb-6">
-            {t('firstCongressContent') || 'Content about the First JSOS Congress will be displayed here.'}
-          </p>
+          <h1 className="section-title text-center text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px]">{t('navFirstCongress')}</h1>
+          <div className="w-full mb-8">
+            <img 
+              src="/images/1st-congress.jpg" 
+              alt={t('navFirstCongress')}
+              className="w-full h-full object-cover rounded-lg mx-auto max-w-4xl"
+            />
+          </div>
         </div>
       </main>
       <Footer />

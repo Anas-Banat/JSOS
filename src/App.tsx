@@ -8,7 +8,6 @@ import { useEffect } from "react";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import AboutUs from "./pages/AboutUs";
-import Members from "./pages/Members";
 import OrganizationChart from "./pages/OrganizationChart";
 import JsosMedia from "./pages/JsosMedia";
 import FirstCongress from "./pages/FirstCongress";
@@ -60,7 +59,6 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/members" element={<Members />} />
           <Route path="/organization-chart" element={<OrganizationChart />} />
           <Route path="/jsos-media" element={<JsosMedia />} />
           <Route path="/first-congress" element={<FirstCongress />} />
