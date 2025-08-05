@@ -14,8 +14,6 @@ import FirstCongress from "./pages/FirstCongress";
 import SecondCongress from "./pages/SecondCongress";
 import ThirdCongress from "./pages/ThirdCongress";
 import FourthCongress from "./pages/FourthCongress";
-import AlKindiWorkshop from "./pages/AlKindiWorkshop";
-import Workshop from "./pages/Workshop";
 import JsosBylaw from "./pages/JsosBylaw";
 import DoctorGuidelines from "./pages/DoctorGuidelines";
 import PracticalRecommendations from "./pages/PracticalRecommendations";
@@ -65,8 +63,6 @@ const App = () => (
           <Route path="/second-congress" element={<SecondCongress />} />
           <Route path="/third-congress" element={<ThirdCongress />} />
           <Route path="/fourth-congress" element={<FourthCongress />} />
-          <Route path="/al-kindi-workshop" element={<AlKindiWorkshop />} />
-          <Route path="/workshop" element={<Workshop />} />
           <Route path="/jsos-bylaw" element={<JsosBylaw />} />
           <Route path="/doctor-guidelines" element={<DoctorGuidelines />} />
           <Route path="/practical-recommendations" element={<PracticalRecommendations />} />
