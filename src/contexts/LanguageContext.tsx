@@ -44,19 +44,19 @@ const translations = {
     en: 'Congress'
   },
   navFirstCongress: {
-    ar: 'المؤتمر الأول',
+    ar: 'المؤتمر الدولي الأول',
     en: 'First Congress'
   },
   navSecondCongress: {
-    ar: 'المؤتمر الثاني',
+    ar: 'المؤتمر الدولي الثاني',
     en: 'Second Congress'
   },
   navThirdCongress: {
-    ar: 'المؤتمر الثالث',
+    ar: 'المؤتمر الدولي الثالث',
     en: 'Third Congress'
   },
   navFourthCongress: {
-    ar: 'المؤتمر الرابع',
+    ar: 'المؤتمر الدولي الرابع',
     en: 'Fourth Congress'
   },
   navAlKindiWorkshop: {
