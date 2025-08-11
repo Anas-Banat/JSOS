@@ -129,6 +129,9 @@ const Header = () => {
                   <Link to="/fourth-congress" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
                     {t('navFourthCongress')}
                   </Link>
+                  <Link to="/fifth-congress" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                    {t('navFifthCongress')}
+                  </Link>
                 </div>
               </HoverCardContent>
             </HoverCard>
@@ -333,6 +336,9 @@ const Header = () => {
             </Link>
             <Link to="/fourth-congress" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navFourthCongress')}
+            </Link>
+            <Link to="/fifth-congress" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
+              {t('navFifthCongress')}
             </Link>
             
             <div className="border-t border-gray-200 my-1"></div>
