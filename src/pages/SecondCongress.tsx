@@ -16,7 +16,7 @@ const SecondCongressContent = () => {
           <h1 className="section-title text-center text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px]">{t('navSecondCongress')}</h1>
           <div className="w-full mb-8">
             <img 
-              src="/images/2nd-congress.jpg" 
+              src="/images/congress/2nd-congress.jpg" 
               alt={t('navSecondCongress')}
               className="w-full h-full object-cover rounded-lg mx-auto max-w-4xl"
             />

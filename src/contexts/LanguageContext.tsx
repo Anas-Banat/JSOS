@@ -207,6 +207,29 @@ const translations = {
     ar: 'تأسست جمعية جراحة السمنة الأردنية لتكون منصة تجمع المهتمين بجراحة السمنة وعلاجها، وتهدف إلى تبادل الخبرات ونشر أحدث التقنيات والممارسات في هذا المجال.',
     en: 'The Jordanian Society for Obesity Surgery was established as a platform that brings together those interested in obesity surgery and treatment, and aims to exchange experiences and spread the latest technologies and practices in this field.'
   },
+
+  //Dashboard
+  dashboard: {
+    ar: 'لوحة التحكم',
+    en: 'Dashboard'
+  },
+  accountsManagement: {
+    ar: 'إدارة الحسابات',
+    en: 'Accounts Management'
+  },
+  addNews: {
+    ar: 'إضافة خبر',
+    en: 'Add News'
+  },
+  addEvent: {
+    ar: 'إضافة حدث',
+    en: 'Add Event'
+  },
+  addGallery: {
+    ar: 'إضافة معرض',
+    en: 'Add Gallery'
+  },
+
   // About Us
   aboutTitle: {
     ar: 'من نحن',
@@ -871,7 +894,7 @@ const translations = {
     en: 'Vice President'
   },
   mohammadZetawi: {
-    ar: 'د. محمد زيتوي',
+    ar: 'د. محمد زيتاوي',
     en: 'Dr. Mohammad Zetawi'
   },
   treasurer: {

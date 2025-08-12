@@ -123,7 +123,7 @@ const Events = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {paginatedUpcoming.map((event) => (
                       <Card key={event.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-                        <Link to={`/conferences/${event.id}`}>
+                        <Link to={`/events/${event.id}`}>
                           {event.photo_url && (
                             <div className="aspect-video overflow-hidden">
                               <img

@@ -53,7 +53,7 @@ const EditEvent = () => {
           description: language === 'ar' ? "فشل في تحميل الحدث" : "Failed to load event",
           variant: "destructive",
         });
-        navigate("/conferences");
+        navigate("/events");
       } finally {
         setInitialLoading(false);
       }
@@ -102,7 +102,7 @@ const EditEvent = () => {
         description: language === 'ar' ? "تم تحديث الحدث بنجاح" : "Event updated successfully",
       });
       
-      navigate(`/conferences/${id}`);
+      navigate(`/events/${id}`);
     } catch (error) {
       console.error("Error updating event:", error);
       toast({
@@ -139,7 +139,7 @@ const EditEvent = () => {
               {language === 'ar' ? 'الحدث غير موجود' : 'Event Not Found'}
             </h3>
             <Button asChild>
-              <Link to="/conferences">
+              <Link to="/events">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 {language === 'ar' ? 'العودة للأحداث' : 'Back to Events'}
               </Link>
@@ -155,7 +155,7 @@ const EditEvent = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="mb-6">
           <Button variant="outline" asChild>
-            <Link to={`/conferences/${id}`}>
+            <Link to={`/events/${id}`}>
               <ArrowLeft className="mr-2 h-4 w-4" />
               {language === 'ar' ? 'العودة للحدث' : 'Back to Event'}
             </Link>

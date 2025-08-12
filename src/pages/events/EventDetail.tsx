@@ -104,7 +104,7 @@ const EventDetail = () => {
               {language === 'ar' ? 'الحدث المطلوب غير موجود.' : 'The requested event was not found.'}
             </p>
             <Button asChild>
-              <Link to="/conferences">
+              <Link to="/events">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 {language === 'ar' ? 'العودة للأحداث' : 'Back to Events'}
               </Link>
@@ -120,7 +120,7 @@ const EventDetail = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="mb-6 flex items-center justify-between">
           <Button variant="outline" asChild>
-            <Link to="/conferences">
+            <Link to="/events">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {language === 'ar' ? 'العودة للأحداث' : 'Back to Events'}
             </Link>
@@ -129,7 +129,7 @@ const EventDetail = () => {
           {canEdit && (
             <div className="flex gap-2">
               <Button variant="outline" asChild>
-                <Link to={`/edit-conferences/${event.id}`}>
+                <Link to={`/edit-events/${event.id}`}>
                   <Edit className="mr-2 h-4 w-4" />
                   {language === 'ar' ? 'تعديل' : 'Edit'}
                 </Link>

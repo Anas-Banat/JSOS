@@ -86,7 +86,7 @@ const AddEvent = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="mb-6">
           <Button variant="outline" asChild>
-            <Link to="/conferences">
+            <Link to="/events">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {language === 'ar' ? 'العودة للأحداث' : 'Back to Events'}
             </Link>
