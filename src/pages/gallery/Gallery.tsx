@@ -148,9 +148,7 @@ const GalleryPageContent = () => {
                           <div className="flex items-center justify-between">
                             <div className="flex items-center text-xs text-muted-foreground">
                               <Calendar className="h-3 w-3 mr-1" />
-                              {new Date(gallery.created_at).toLocaleDateString(
-                                language === 'ar' ? 'ar-SA' : 'en-US'
-                              )}
+                              {new Date(gallery.created_at).toLocaleDateString('en-US')}
                             </div>
                             
                             <Button size="sm" asChild>
