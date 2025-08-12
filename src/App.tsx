@@ -28,7 +28,7 @@ import Admin from "./pages/AccountsManagement";
 import Setup from "./pages/Setup";
 
 import AboutUs from "./pages/AboutUs";
-import OrganizationChart from "./pages/OrganizationChart";
+import OrganizationChart from "./pages/organization/OrganizationChart";
 import JsosMedia from "./pages/JsosMedia";
 import FirstCongress from "./pages/FirstCongress";
 import SecondCongress from "./pages/SecondCongress";

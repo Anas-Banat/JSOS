@@ -80,7 +80,7 @@ const Events = () => {
           </h1>
           {canAddEvent && (
             <Button asChild className="gap-2">
-              <Link to="/add-conference">
+              <Link to="/add-events">
                 <Plus className="h-4 w-4" />
                 {language === 'ar' ? 'إضافة حدث' : 'Add Event'}
               </Link>

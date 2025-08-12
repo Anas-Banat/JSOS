@@ -1,30 +1,26 @@
 
-import React, { useEffect } from 'react';
-import { LanguageProvider } from '@/contexts/LanguageContext';
+
+
+
+
+
+
+
+import React, { useEffect, useRef } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { setupScrollAnimation } from '@/utils/animation';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import { Card, CardContent } from '@/components/ui/card';
 
-const OrganizationChartContent = () => {
-  const { t } = useLanguage();
-  
-  useEffect(() => {
-    const cleanupAnimation = setupScrollAnimation();
-    return () => cleanupAnimation();
-  }, []);
+const Organization = () => {  
+    const { t } = useLanguage();
+      
+    useEffect(() => {
+        const cleanupAnimation = setupScrollAnimation();
+        return () => cleanupAnimation();
+    }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow pt-24">
-        <div className="container-custom mx-auto py-12">
-          <h1 className="section-title text-2xl font-bold text-jsos-green-700 mb-8 lg:text-[30px] animate-on-scroll">{t('navOrgChart')}</h1>
-          <p className="text-gray-600 mb-12 animate-on-scroll">
-            {t('overviewContent')}
-          </p>
-          
-          <div className="bg-white rounded-xl shadow-lg p-8 animate-on-scroll">
+    <div className="bg-white rounded-xl shadow-lg p-8 animate-on-scroll">
             <div className="flex flex-col items-center mb-12">
               <div className="doctor-circle w-40 h-40 mb-4">
                 <img 
@@ -112,20 +108,8 @@ const OrganizationChartContent = () => {
               </div>
 
             </div>
-          </div> 
-        </div>
-      </main>
-      <Footer />
-    </div>
+          </div>
   );
 };
 
-const OrganizationChart = () => {
-  return (
-    <LanguageProvider>
-      <OrganizationChartContent />
-    </LanguageProvider>
-  );
-};
-
-export default OrganizationChart;
+export default Organization;
