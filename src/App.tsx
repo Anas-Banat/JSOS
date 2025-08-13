@@ -51,7 +51,7 @@ import RouxEnY from "./pages/RouxEnY";
 import SleeveGastrectomy from "./pages/SleeveGastrectomy";
 import ClinicalTrials from "./pages/ClinicalTrials";
 import Contact from "./pages/Contact";
-import Events from "./pages/Events";
+import Events from "./pages/events/Events";
 import News from "./pages/news/News";
 import Gallery from "./pages/gallery/Gallery";
 

@@ -114,40 +114,40 @@ const NewsContent = () => {
       ) : news.length > 0 ? (
         <>
         <div className="space-y-8">
-                    {paginatedNews.map((item) => (
-                      <div 
-                        key={item.id} 
-                        className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all flex flex-col md:flex-row"
-                      >
-                        <div className="md:w-1/3">
-                          <img 
-                            src={item.photoUrl || item.photo_url} 
-                            alt={getTitle(item)} 
-                            className="w-full h-full object-cover"
-                            style={{ maxHeight: '300px' }}
-                          />
-                        </div>
-                        <div className="p-6 md:w-2/3">
-                          <div className="flex items-center text-jsos-green-700 mb-2">
-                            <Calendar size={18} className="mr-2 flex-shrink-0" />
-                            <span className="text-sm">{new Date(item.date).toLocaleDateString()}</span>
-                          </div>
-                          <h3 className="text-xl font-bold mb-3 line-clamp-1">
-                            {getTitle(item)}
-                          </h3>
-                          <p className="text-gray-600 mb-4 line-clamp-3">
-                            {getDescription(item)}
-                          </p>
-                          <Button
-                            onClick={() => navigate(`/news/${item.id}`)}
-                            variant="outline" 
-                            className="border-jsos-green-600 text-jsos-green-700 hover:bg-jsos-green-50">
-                            {t('readMore')}
-                          </Button>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+          {paginatedNews.map((item) => (
+            <div 
+              key={item.id} 
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all flex flex-col md:flex-row"
+            >
+              <div className="md:w-1/3">
+                <img 
+                  src={item.photoUrl || item.photo_url} 
+                  alt={getTitle(item)} 
+                  className="w-full h-full object-cover"
+                  style={{ maxHeight: '300px' }}
+                />
+              </div>
+              <div className="p-6 md:w-2/3">
+                <div className="flex items-center text-jsos-green-700 mb-2">
+                  <Calendar size={18} className="mr-2 flex-shrink-0" />
+                  <span className="text-sm">{new Date(item.date).toLocaleDateString()}</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 line-clamp-1">
+                  {getTitle(item)}
+                </h3>
+                <p className="text-gray-600 mb-4 line-clamp-3">
+                  {getDescription(item)}
+                </p>
+                <Button
+                  onClick={() => navigate(`/news/${item.id}`)}
+                  variant="outline" 
+                  className="border-jsos-green-600 text-jsos-green-700 hover:bg-jsos-green-50">
+                  {t('readMore')}
+                </Button>
+              </div>
+            </div>
+          ))}
+        </div>
 
 
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
