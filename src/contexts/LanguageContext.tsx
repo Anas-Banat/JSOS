@@ -28,8 +28,8 @@ const translations = {
     en: 'Association Members'
   },
   navMembersPage: {
-    ar: 'الأعضاء',
-    en: 'Members'
+    ar: 'أعضاء الجمعية',
+    en: 'JSOS Members'
   },
   navOrgChart: {
     ar: 'الهيكل التنظيمي',

@@ -29,6 +29,7 @@ import Setup from "./pages/Setup";
 
 import AboutUs from "./pages/AboutUs";
 import OrganizationChart from "./pages/organization/OrganizationChart";
+import Members from "./pages/members";
 import JsosMedia from "./pages/JsosMedia";
 import FirstCongress from "./pages/FirstCongress";
 import SecondCongress from "./pages/SecondCongress";
@@ -86,6 +87,7 @@ const App = () => (
           
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/organization-chart" element={<OrganizationChart />} />
+          <Route path="/members" element={<Members />} />
           <Route path="/jsos-media" element={<JsosMedia />} />
           <Route path="/first-congress" element={<FirstCongress />} />
           <Route path="/second-congress" element={<SecondCongress />} />

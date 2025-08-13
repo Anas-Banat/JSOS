@@ -88,6 +88,9 @@ const Header = () => {
                   <Link to="/organization-chart" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
                     {t('navOrgChart')}
                   </Link>
+                  <Link to="/members" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+                    {t('navMembersPage')}
+                  </Link>
                   <Link to="/jsos-bylaw" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
                     {t('navJsosBylaw')}
                   </Link>
@@ -315,6 +318,9 @@ const Header = () => {
             </Link>
             <Link to="/organization-chart" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navOrgChart')}
+            </Link>
+            <Link to="/members" className="px-2 py-1.5 hover:bg-jsos-green-50 cursor-pointer">
+              {t('navMembersPage')}
             </Link>
             <Link to="/jsos-bylaw" className="text-foreground py-2 px-6 hover:bg-jsos-green-50 rounded" onClick={() => setIsMenuOpen(false)}>
               {t('navJsosBylaw')}
