@@ -7,20 +7,14 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Calendar } from 'lucide-react';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { LanguageProvider } from '@/contexts/LanguageContext';
-import { setupScrollAnimation } from '@/utils/animation';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import { useNavigate } from 'react-router-dom';
 
-const NewsContent = () => {
+const News = () => {
   const { t, language } = useLanguage();
   const [news, setNews] = useState<NewsArticle[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterDate, setFilterDate] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const navigate = useNavigate();
   const newsPerPage = 12;
   
   useEffect(() => {
@@ -66,12 +60,11 @@ const NewsContent = () => {
   const paginatedNews = news.slice((currentPage - 1) * newsPerPage, currentPage * newsPerPage);
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow pt-24">
-        <div className="container mx-auto py-8 px-4">
-      <h1 className="section-title text-center mb-12 text-4xl font-bold text-jsos-green-700 mb-6">{t('navNews')}</h1>
+    
+    <div className="container mx-auto py-8 px-4">
+      <h1 className="section-title text-4xl font-bold text-jsos-green-700 mb-6">{t('aboutTitle')}</h1>
 
+      
       {/* Filters */}
       <div className="mb-8 bg-white p-6 rounded-lg shadow-md">
         <div className="flex flex-col md:flex-row gap-4">
@@ -113,44 +106,7 @@ const NewsContent = () => {
         </div>
       ) : news.length > 0 ? (
         <>
-        <div className="space-y-8">
-                    {paginatedNews.map((item) => (
-                      <div 
-                        key={item.id} 
-                        className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all flex flex-col md:flex-row"
-                      >
-                        <div className="md:w-1/3">
-                          <img 
-                            src={item.photoUrl || item.photo_url} 
-                            alt={getTitle(item)} 
-                            className="w-full h-full object-cover"
-                            style={{ maxHeight: '300px' }}
-                          />
-                        </div>
-                        <div className="p-6 md:w-2/3">
-                          <div className="flex items-center text-jsos-green-700 mb-2">
-                            <Calendar size={18} className="mr-2 flex-shrink-0" />
-                            <span className="text-sm">{new Date(item.date).toLocaleDateString()}</span>
-                          </div>
-                          <h3 className="text-xl font-bold mb-3 line-clamp-1">
-                            {getTitle(item)}
-                          </h3>
-                          <p className="text-gray-600 mb-4 line-clamp-3">
-                            {getDescription(item)}
-                          </p>
-                          <Button
-                            onClick={() => navigate(`/news/${item.id}`)}
-                            variant="outline" 
-                            className="border-jsos-green-600 text-jsos-green-700 hover:bg-jsos-green-50">
-                            {t('readMore')}
-                          </Button>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
-
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {paginatedNews.map((article) => (
             <div key={article.id} className="news-card p-4 group flex max-w-xl flex-col justify-between px-5 bg-white dark:bg-gray-700 py-5 rounded-xl shadow-testimonial dark:shadow-none">
               <AspectRatio ratio={16/9} className="relative z-10 mx-auto mb-5 h-[100%] w-[100%] items-center">
@@ -176,9 +132,7 @@ const NewsContent = () => {
               </div>
             </div>
           ))}
-        </div> */}
-
-
+        </div>
         {/* أزرار التنقل بين الصفحات */}
         {totalPages > 1 && (
           <div className="flex justify-center items-center gap-4 mt-8">
@@ -205,18 +159,7 @@ const NewsContent = () => {
           <p className="text-gray-500">{t('noNewsFound')}</p>
         </div>
       )}
-      </div>
-    </main>
-      <Footer />
     </div>
-  );
-};
-
-const News = () => {
-  return (
-    <LanguageProvider>
-      <NewsContent />
-    </LanguageProvider>
   );
 };
 

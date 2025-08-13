@@ -7,8 +7,12 @@ import { getNewsById } from '@/services/newsService';
 import { NewsArticle } from '@/types/news';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Edit } from 'lucide-react';
+import { LanguageProvider } from '@/contexts/LanguageContext';
+import { setupScrollAnimation } from '@/utils/animation';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
-const NewsDetail = () => {
+const NewsDetailContent = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { t, language } = useLanguage();
@@ -65,55 +69,75 @@ const NewsDetail = () => {
   );
   
   return (
-    <div className="container mx-auto py-8 px-4">
-      <div className="flex justify-between items-center mb-6">
-        <Button
-          variant="outline"
-          onClick={() => navigate('/news')}
-          className="flex items-center gap-2"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          <span>{t('allNews')}</span>
-        </Button>
-        
-        {canEdit && (
-          <Button
-            variant="outline"
-            onClick={() => navigate(`/edit-news/${id}`)}
-            className="flex items-center gap-2 bg-blue text-white dark:bg-dark dark:text-white dark:hover:bg-blue hover:text-white hover:bg-news-primary "
-          >
-            <Edit className="h-4 w-4" />
-            <span>{t('edit')}</span>
-          </Button>
-        )}
-      </div>
-      
-      <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div className="relative bg-muted">
-          <img 
-            src={article.photoUrl || article.photo_url} 
-            alt={title}
-            className="w-full h-auto object-contain max-h-[500px]" 
-          />
-        </div>
-        
-        <div className="p-6 md:p-8">
-          <h1 className="text-3xl font-bold text-news-primary mb-4">
-            {title}
-          </h1>
-          
-          <p className="text-gray-500 mb-6">
-            {new Date(article.date).toLocaleDateString()}
-          </p>
-          
-          <div className="prose max-w-none">
-            <p className="text-gray-700 whitespace-pre-line">
-              {description}
-            </p>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow pt-24">
+        <div className="container-custom mx-auto py-12">
+
+          <div className="container mx-auto py-8 px-4">
+            <div className="flex justify-between items-center mb-6">
+              <Button
+                variant="outline"
+                onClick={() => navigate('/news')}
+                className="flex items-center gap-2"
+              >
+                <ArrowLeft className="h-4 w-4" />
+                <span>{t('allNews')}</span>
+              </Button>
+              
+              {canEdit && (
+                <Button
+                  variant="outline"
+                  onClick={() => navigate(`/edit-news/${id}`)}
+                  className="flex items-center gap-2 bg-blue text-white dark:bg-dark dark:text-white dark:hover:bg-blue hover:text-white hover:bg-news-primary "
+                >
+                  <Edit className="h-4 w-4" />
+                  <span>{t('edit')}</span>
+                </Button>
+              )}
+            </div>
+            
+            <article className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="relative bg-muted">
+                <img 
+                  src={article.photoUrl || article.photo_url} 
+                  alt={title}
+                  className="w-full h-auto object-contain max-h-[500px]" 
+                />
+              </div>
+              
+              <div className="p-6 md:p-8">
+                <h1 className="text-3xl font-bold text-news-primary mb-4">
+                  {title}
+                </h1>
+                
+                <p className="text-gray-500 mb-6">
+                  {new Date(article.date).toLocaleDateString()}
+                </p>
+                
+                <div className="prose max-w-none">
+                  <p className="text-gray-700 whitespace-pre-line">
+                    {description}
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
+          
         </div>
-      </article>
+      </main>
+      <Footer />
     </div>
+
+    
+  );
+};
+
+const NewsDetail = () => {
+  return (
+    <LanguageProvider>
+      <NewsDetailContent />
+    </LanguageProvider>
   );
 };
 

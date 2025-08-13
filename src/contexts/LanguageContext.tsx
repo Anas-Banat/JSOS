@@ -163,6 +163,10 @@ const translations = {
     ar: 'معرض الصور',
     en: 'Gallery'
   },
+  searchNews:{
+    ar: 'ابحث في الأخبار',
+    en: 'Search News'
+  },
   // Website title and basics
   websiteTitle: {
     ar: 'جمعية جراحة السمنة الأردنية',
@@ -228,6 +232,10 @@ const translations = {
   addGallery: {
     ar: 'إضافة معرض',
     en: 'Add Gallery'
+  },
+  readMore: {
+    ar: 'اقرأ المزيد',
+    en: 'Read More'
   },
 
   // About Us

@@ -21,7 +21,7 @@ const IndexContent = () => {
         <main>
           <Hero />
           <Events />
-          <h1 className="section-title text-center text-2xl font-bold text-jsos-green-700 m-8 lg:text-[30px]">{t('navOrgChart')}</h1>
+          <h1 className="text-center text-2xl font-bold text-jsos-green-700 bg-white p-8 lg:text-[30px]">{t('navOrgChart')}</h1>
           <Organization />
           <Contact />
         </main>

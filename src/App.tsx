@@ -52,8 +52,7 @@ import SleeveGastrectomy from "./pages/SleeveGastrectomy";
 import ClinicalTrials from "./pages/ClinicalTrials";
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
-// import News from "./pages/news/News";
-import News from "./pages/News";
+import News from "./pages/news/News";
 import Gallery from "./pages/gallery/Gallery";
 
 // مكون للتمرير إلى أعلى الصفحة عند تغيير المسار

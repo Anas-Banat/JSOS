@@ -74,7 +74,7 @@ const NewsContent = () => {
       day: 'numeric' 
     };
     
-    return date.toLocaleDateString(language === 'ar' ? 'ar-JO' : 'en-US', options);
+    return date.toLocaleDateString('en-US', options);
   };
 
   return (
