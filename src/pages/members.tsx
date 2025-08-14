@@ -125,8 +125,8 @@ const members = [
     en: "Mohammad Abdulwahab Mohammad Al-Zaytawi"
   },
   {
-    ar: "اشرف جمال سليم حداد (مجلس تأديب)",
-    en: "Ashraf Jamal Salim Haddad (Disciplinary Board)"
+    ar: "اشرف جمال سليم حداد",
+    en: "Ashraf Jamal Salim Haddad"
   },
   {
     ar: "محمد زيدون  احمد الرشدان",
